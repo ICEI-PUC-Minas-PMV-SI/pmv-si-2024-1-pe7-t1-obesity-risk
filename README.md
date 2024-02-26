@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Nome completo do aluno 1
 * Bernardo Campos Rodrigues
 * Douglas Fernandes de Carvalho Jardim
-* Nome completo do aluno 4
+* Eduardo Henrique Costa Lara
 * Nome completo do aluno 5
 * Nome completo do aluno 6
 
