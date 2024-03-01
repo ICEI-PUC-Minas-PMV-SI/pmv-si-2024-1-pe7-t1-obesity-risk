@@ -1,25 +1,19 @@
 # Introdução
 
-Texto descritivo introdutório apresentando a visão geral do projeto a ser desenvolvido considerando o contexto em que ele se insere, os objetivos gerais, a justificativa e o público-alvo do projeto.
+**BERNARDO - PREENCHEREI ESSA PARTE AO FINAL**: *Texto descritivo introdutório apresentando a visão geral do projeto a ser desenvolvido considerando o contexto em que ele se insere, os objetivos gerais, a justificativa e o público-alvo do projeto.*
 
 ## Problema
 
-Nesta seção, você deve apresentar o problema que a sua investigação/experimentação busca resolver. Por exemplo, caso o _dataset_ selecionado, seja um _dataset_ que contenha uma série temporal com o preço de diversas ações da bolsa de valores, o problema pode estar relacionado a dificuldade em saber a melhor hora (hora certa??) de comprar ou então, de executar a venda de uma determinada ação.
+A obesidade é um problema de saúde pública de grande importância no Brasil, afetando mais de um quinto da população adulta. Segundo dados da última pesquisa Vigitel, realizada em 2022, 20,3% dos brasileiros com 18 anos ou mais estão obesos. Isso significa que mais de 40 milhões de pessoas estão acima do peso ideal, o que aumenta significativamente o risco de desenvolver doenças crônicas como diabetes, hipertensão e doenças cardíacas. Entre os principais fatores de risco estão a má alimentação, a falta de atividade física e o sedentarismo.
 
-Descreva ainda o contexto em que essa aplicação será usada, se houver: empresa parceira, tecnologias etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+O dataset que utilizaremos em nossa pesquisa contém estimativas dos níveis de obesidade em pessoas dos países do México, Peru e Colômbia, com idades entre 14 e 61 anos, considerando seus hábitos alimentares, tabagismo e condição física.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O contexto de aplicação desta pesquisa não inclui uma empresa parceira ou tecnologias específicas neste momento, mas pode ser direcionado para áreas como saúde pública, nutrição e políticas de bem-estar.
 
 ## Questão de pesquisa
 
-A questão de pesquisa é a base de todo o trabalho que será desenvolvido. É ela que motiva a realização da pesquisa e deverá ser adequada ao problema identificado. Ao término de sua pesquisa/experimentação, o objetivo é que seja encontrada a resposta da questão de pesquisa previamente definida.
-
-> **Links Úteis**:
-> - [Questão de pesquisa](https://www.enago.com.br/academy/how-to-develop-good-research-question-types-examples/)
-> - [Problema de pesquisa](https://blog.even3.com.br/problema-de-pesquisa/)
+A pergunta central que motiva esta pesquisa é:
+- Até que ponto é viável desenvolver um modelo preciso para prever o nível de obesidade de um indivíduo, levando em consideração diversos fatores como hábitos alimentares, tabagismo e condição física?
 
 ## Objetivos preliminares
 
@@ -74,6 +68,12 @@ Nesta seção, você deverá estruturar o seu Canvas Analítico. O Canvas Analí
 > - [Modelo do Canvas Analítico](https://github.com/ICEI-PUC-Minas-PMV-SI/PesquisaExperimentacao-Template/blob/main/help/Software-Analtics-Canvas-v1.0.pdf)
 
 # Referências
+
+BRASIL. Ministério da Saúde. Vigitel 2022: Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico. Brasília: Ministério da Saúde, 2023.
+
+Palechor, F. M., & de la Hoz Manotas, A. (2023). Obesity or CVD risk (Classify/Regressor/Cluster) [Conjunto de dados]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/7009925
+
+
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho utilizando o padrão ABNT.
 
