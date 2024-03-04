@@ -56,7 +56,31 @@ Nesta seção, deverão ser descritas outras abordagens identificadas na literat
 
 # Descrição do _dataset_ selecionado
 
-Nesta seção, você deverá descrever detalhadamente o _dataset_ selecionado. Lembre-se de informar o link de acesso a ele, bem como, de descrever cada um dos seus atributos (a que se refere, tipo etc.), se existem atributos faltantes etc.
+O conjunto de dados disponível para análise oferece estimativas de níveis de obesidade em indivíduos do México, Peru e Colômbia, focalizando seus hábitos alimentares como fator determinante. Composto por 2111 registros, esse dataset representa reúne informações suficientes para pesquisadores e profissionais da saúde interessados na compreensão e abordagem da obesidade nessas regiões.
+
+Para acessar os dados, os interessados podem utilizar o link: (https://www.kaggle.com/datasets/aravindpcoder/obesity-or-cvd-risk-classifyregressorcluster/data). 
+
+O dataset é composto por 17 atributos que fornecem informações que possibilitam análises detalhadas. A classe variável "Nível de Obesidade" é o ponto focal, permitindo a aplicação de técnicas de classificação, agrupamento ou regressão. As categorias dessa variável incluem Peso Insuficiente, Peso Normal, Sobrepeso Nível I, Sobrepeso Nível II, Obesidade Tipo I, Obesidade Tipo II e Obesidade Tipo III, proporcionando uma segmentação clara dos registros com base nos diferentes estágios de obesidade.
+
+Os atributos apresentados no dataset abrangem uma gama variada de informações, sendo elas:
+  - Gênero (masculino ou feminino)
+  - Idade
+  - Altura
+  - Peso
+  - Histórico familiar de obesidade (sim ou não)
+  - Frequência de consumo de alimentos altamente calóricos (falso ou verdadeiro)
+  - Número de refeições principais
+  - Consumo de alimentos entre as refeições 
+  - Tabagismo (falso ou verdadeiro)
+  - Consumo de água por dia
+  - Monitoramento do consumo de calorias (sim ou não)
+  - Frequência de atividade física
+  - Tempo de uso de dispositivos tecnológicos
+  - Consumo de álcool
+  - Tipo de transporte utilizado
+  - Tipo de Obesidade
+
+Apesar da riqueza de informações, é importante notar algumas limitações nos dados, como a ausência de unidades de medida em certos atributos e a falta de clareza sobre a metodologia de medição em alguns casos . Para maximizar a utilidade do dataset, pode-se considerar a necessidade de padronização ou obtenção de informações adicionais.
 
 # Canvas analítico
 
