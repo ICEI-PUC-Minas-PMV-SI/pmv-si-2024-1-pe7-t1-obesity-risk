@@ -17,22 +17,20 @@ A pergunta central que motiva esta pesquisa é:
 
 ## Objetivos preliminares
 
-Aqui você deve descrever os objetivos preliminares do trabalho indicando que o objetivo geral é experimentar modelos de aprendizado de máquina adequados para solucionar o problema apresentado acima. 
+**Classificar os Níveis de Obesidade:** Utilizar os dados coletados para desenvolver um modelo de aprendizado de máquina capaz de classificar corretamente os níveis de obesidade (Sobrepeso, Normal, Obesidade I, II e III) com base nos hábitos alimentares, condição física e dados demográficos (idade, gênero, altura e peso) dos indivíduos.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+**Identificar Fatores de Risco:** Analisar os atributos relacionados aos hábitos alimentares e à condição física para identificar os principais fatores de risco associados aos diferentes níveis de obesidade. Isso inclui a frequência de consumo de alimentos calóricos, o consumo de vegetais, o número de refeições principais, o consumo de álcool, entre outros.
 
-Por exemplo: um objetivo específico pode estar relacionado a predizer a tendência de alta, estabilidade ou queda de uma determinada ação em uma determinada janela do tempo ou então, predizer o valor exato de uma determinada ação.
-Lembre-se que, à medida que a pesquisa/experimentação evolui, os objetivos podem evoluir também, portanto, não se esqueça de fazer as atualizações necessárias.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+**Prever Mudanças nos Níveis de Obesidade:** Desenvolver um modelo preditivo que possa estimar mudanças nos níveis de obesidade com base em alterações nos hábitos alimentares e de atividade física. Esse modelo ajudará a entender como intervenções específicas podem impactar os níveis de obesidade.
+
+**Segmentação de Dados para Intervenções Personalizadas:** Usar técnicas de segmentação para identificar grupos específicos dentro da população estudada que possam se beneficiar mais de intervenções direcionadas, baseadas em seus hábitos alimentares e níveis de atividade física.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com o conjunto de dados escolhido. Indique as razões pelas quais você escolheu seus objetivos específicos, as razões para aprofundar o estudo do problema identificado e qual o impacto que tal problema provoca na sociedade. Lembre-se de quantificar (com dados reais e suas respectivas fontes) este impacto.
+A escolha deste projeto se justifica pela crescente prevalência da obesidade globalmente, impactando significativamente a saúde pública. A obesidade está associada a várias doenças crônicas, como diabetes tipo 2, doenças cardiovasculares e certos tipos de câncer, representando um fardo significativo para os sistemas de saúde. Além disso, entender os fatores de risco e como eles interagem para influenciar os níveis de obesidade pode ajudar no desenvolvimento de estratégias preventivas e intervenções mais eficazes.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A análise detalhada deste dataset, que inclui dados de hábitos alimentares, condição física e dados demográficos de indivíduos de países diferentes, oferece uma oportunidade única de investigar as possíveis causas da obesidade em contextos culturais e geográficos específicos. Isso pode isso pode gerar insights importantes sobre como abordagens personalizadas para prevenção e tratamento podem ser mais eficazes em diferentes populações.
 
 ## Público-Alvo
 
