@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Amanda Lima Carvalho Dal Col
 * Bernardo Campos Rodrigues
 * Douglas Fernandes de Carvalho Jardim
 * Eduardo Henrique Costa Lara
