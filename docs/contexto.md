@@ -62,25 +62,29 @@ Para acessar os dados, os interessados podem utilizar o link: (https://www.kaggl
 
 O dataset é composto por 17 atributos que fornecem informações que possibilitam análises detalhadas. A classe variável "Nível de Obesidade" é o ponto focal, permitindo a aplicação de técnicas de classificação, agrupamento ou regressão. As categorias dessa variável incluem Peso Insuficiente, Peso Normal, Sobrepeso Nível I, Sobrepeso Nível II, Obesidade Tipo I, Obesidade Tipo II e Obesidade Tipo III, proporcionando uma segmentação clara dos registros com base nos diferentes estágios de obesidade.
 
-Os atributos apresentados no dataset abrangem uma gama variada de informações, sendo elas:
-  - Gênero (masculino ou feminino)
-  - Idade
-  - Altura
-  - Peso
-  - Histórico familiar de obesidade (sim ou não)
-  - Frequência de consumo de alimentos altamente calóricos (falso ou verdadeiro)
-  - Número de refeições principais
-  - Consumo de alimentos entre as refeições 
-  - Tabagismo (falso ou verdadeiro)
-  - Consumo de água por dia
-  - Monitoramento do consumo de calorias (sim ou não)
-  - Frequência de atividade física
-  - Tempo de uso de dispositivos tecnológicos
-  - Consumo de álcool
-  - Tipo de transporte utilizado
-  - Tipo de Obesidade
+Os atributos apresentados no dataset abrangem uma gama variada de informações, sendo elas derivadas das seguintes perguntas:
+  - Qual é o seu gênero? String (masculino ou feminino)
+  - Qual é a sua idade? Decimal (valor numérico inteiro)
+  - Qual é a sua altura? Decimal (valor numérico em metros)
+  - Qual é o seu peso? Decimal (valor numérico em quilogramas)
+  - Você possui familiar que sofreu ou sofre com excesso de peso? Boolean (sim ou não)
+  - Você come alimentos altamente calóricos com frequência? Boolean (sim ou não)
+  - Você costuma comer vegetais nas suas refeições? Decimal (1 - Nunca, 2 - As vezes, 3 - Sempre)
+  - Quantas refeições principais você faz diariamente? Decimal (valor numérico inteiro)
+  - Você come algum alimento entre as refeições? String (sempre, frequentemente, as vezes, não) 
+  - Você fuma? Boolean (falso ou verdadeiro)
+  - Quanto você bebe de água por dia? Decimal (1 - menos de um litro, 2 - entre um e dois litros, 3 - mais de dois litros)
+  - Você monitora seu consumo diário de calorias? Boolean (sim ou não)
+  - Com que frequência você pratica atividade física? Decimal (0 - não pratico, 1 - um ou dois dias, 2 - dois ou quatro 
+    dias, 3 - quatro ou cinco dias) 
+  - Quanto tempo você passa utilizando dispositivos tecnológicos como celular, videogame, televisão, computador e outros? 
+    Decimal (0 - de 0 a duas horas, 1 - de três a cinco horas, 2 - mais de cinco horas)
+  - Com que frequência você bebe álcool? String (não bebo, as vezes, frequentemente, sempre)
+  - Que tipo de transporte você normalmente utiliza? String (automóvel, moto, bicicleta, transporte público, caminhada)
+  - Nível de Obesidade - String (Peso Insuficiente, Peso Normal, Sobrepeso Nível I, Sobrepeso Nível II, Obesidade Tipo I, 
+    Obesidade Tipo II e Obesidade Tipo III)
 
-Apesar da riqueza de informações, é importante notar algumas limitações nos dados, como a ausência de unidades de medida em certos atributos e a falta de clareza sobre a metodologia de medição em alguns casos . Para maximizar a utilidade do dataset, pode-se considerar a necessidade de padronização ou obtenção de informações adicionais.
+As perguntas da pesquisa e mais informações podem ser encontradas neste artigo que publica o conjunto de dados: https://www.sciencedirect.com/science/article/pii/S2352340919306985#tbl1
 
 # Canvas analítico
 
