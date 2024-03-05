@@ -13,7 +13,7 @@ O contexto de aplicação desta pesquisa não inclui uma empresa parceira ou tec
 ## Questão de pesquisa
 
 A pergunta central que motiva esta pesquisa é:
-- Até que ponto é viável desenvolver um modelo preciso para prever o nível de obesidade de um indivíduo, levando em consideração diversos fatores como hábitos alimentares, tabagismo e condição física?
+- Com que precisão é possível prever o nível de obesidade de de um indivíduo levando em consideração diversos fatores como hábitos alimentares, tabagismo e condição física?
 
 ## Objetivos preliminares
 
