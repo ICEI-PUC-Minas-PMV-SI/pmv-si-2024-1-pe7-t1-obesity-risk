@@ -33,16 +33,22 @@ A escolha deste projeto se justifica pela crescente prevalência da obesidade gl
 A análise detalhada deste dataset, que inclui dados de hábitos alimentares, condição física e dados demográficos de indivíduos de países diferentes, oferece uma oportunidade única de investigar as possíveis causas da obesidade em contextos culturais e geográficos específicos. Isso pode isso pode gerar insights importantes sobre como abordagens personalizadas para prevenção e tratamento podem ser mais eficazes em diferentes populações.
 
 ## Público-Alvo
+O nosso público-alvo é diversificado e abrange diferentes perfis que podem se beneficiar das análises e conclusões resultantes da pesquisa sobre obesidade. Esses perfis incluem:
 
-Descreva quem serão as pessoas que poderão se beneficiar com a sua investigação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+1. Profissionais da Saúde:
+   Médicos, nutricionistas, psicólogos, educadores físicos e outros profissionais da saúde interessados em compreender melhor os fatores que contribuem para a obesidade.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+2. Pesquisadores e Acadêmicos:
+   Pesquisadores das áreas de saúde, nutrição, epidemiologia, medicina preventiva e ciência de dados interessados em explorar novas abordagens para o estudo da obesidade.
+Estudantes universitários em busca de dados e informações para trabalhos acadêmicos, dissertações e teses relacionadas à obesidade e saúde pública.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+3. Organizações Governamentais e Não Governamentais:
+   Ministérios da Saúde, Secretarias de Saúde e órgãos responsáveis pela formulação e implementação de políticas de saúde.
+ONGs e instituições dedicadas à promoção da saúde e bem-estar, interessadas em estratégias eficazes de prevenção e controle da obesidade.
+
+4. Indivíduos e Famílias:
+   Pessoas que buscam informações sobre prevenção e tratamento da obesidade para melhorar sua saúde e qualidade de vida.
+Famílias preocupadas com a saúde de seus membros, interessadas em adotar hábitos alimentares e estilo de vida mais saudáveis.
 
 ## Estado da arte
   A prevalência de obesidade na população jovem é um desafio crescente para a saúde pública global. Com impactos físicos, emocionais e sociais significativos, é crucial compreender suas razões e métodos de intervenção. Nesta situação, esta análise do estado atual examina os principais fatores de risco, ações e políticas de saúde pública relacionadas à obesidade entre adolescentes.
