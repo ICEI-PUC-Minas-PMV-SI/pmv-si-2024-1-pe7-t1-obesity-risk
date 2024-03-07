@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Douglas Fernandes de Carvalho Jardim
 * Eduardo Henrique Costa Lara
 * Thomas Henrique Lousada
-* Nome completo do aluno 6
+* Pedro Henrique de Souza Monti
 
 ## Orientador
 
