@@ -45,14 +45,53 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 ## Estado da arte
+  A prevalência de obesidade na população jovem é um desafio crescente para a saúde pública global. Com impactos físicos, emocionais e sociais significativos, é crucial compreender suas razões e métodos de intervenção. Nesta situação, esta análise do estado atual examina os principais fatores de risco, ações e políticas de saúde pública relacionadas à obesidade entre adolescentes.
+  
+1- Os fatores de risco envolvidos na obesidade no adolescente: uma revisão integrativa
 
-Nesta seção, deverão ser descritas outras abordagens identificadas na literatura que foram utilizadas para resolver problemas similares ao problema em questão. Para isso, faça uma pesquisa detalhada e identifique, no mínimo, 3 trabalhos que tenham utilizado dados em contexto similares e então, detalhe: detalhe e contextualize o problema, descreva o _dataset_ utilizado, detalhe quais abordagens/algoritmos foram utilizados (e seus parâmetros), identifique as métricas de avaliação empregadas e fale sobre os resultados obtidos. 
+ 1-1 Contexto:
+O texto apresenta um resumo de um estudo sobre os fatores de risco para o desenvolvimento da obesidade na adolescência, realizado por meio de uma revisão integrativa da literatura. A pesquisa teve como objetivo identificar e compreender os fatores que contribuem para o aumento da obesidade entre adolescentes, analisando aspectos biológicos, sociais, psicológicos e nutricionais. O estudo também teve como objetivo analisar propostas de intervenção e estratégias de prevenção da obesidade nessa faixa etária.
 
-> **Links Úteis**:
-> - [Google Scholar](https://scholar.google.com/)
-> - [IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp)
-> - [Science Direct](https://www.sciencedirect.com/)
-> - [ACM Digital Library](https://dl.acm.org/)
+ 1-2 Detalhes do Dataset:
+Os 25 artigos selecionados foram selecionados a partir das bases de dados da Biblioteca Virtual em Saúde (BVS) e do EBSCOhost. Os textos abordaram diversos temas ligados à obesidade na adolescência, como fatores de risco, consequências para a saúde, impacto social e econômico, além de propostas de intervenção e prevenção.
+
+ 1-3 Medidas e resultados:
+As métricas usadas no estudo incluíram a análise dos fatores de risco para obesidade na adolescência, como hábitos alimentares, níveis de atividade física, influência genética, condições socioeconômicas e culturais, dentre outros. Os resultados evidenciaram uma variedade de elementos interligados que contribuem para o aumento da obesidade nessa faixa etária.
+Os resultados destacados são:
+Identificação de fatores biológicos, sociais, psicológicos e nutricionais que contribuem para o excesso de peso na adolescência.
+Falta de consenso sobre os riscos e benefícios relacionados à obesidade, dificultando recomendações baseadas em evidências.
+Medidas para a mudança dos hábitos alimentares, controle de peso e aumento da atividade física.
+Reconhecer a escola como um ambiente propício para a promoção da saúde e prevenção da obesidade.
+Precisamos lidar com as táticas de marketing da indústria alimentícia que promovem alimentos processados ricos em gordura e açúcar.
+Os resultados reforçam a relevância de abordagens integradas e multidisciplinares para lidar com o problema da obesidade na adolescência, envolvendo famílias, escolas, profissionais de saúde e políticas públicas de saúde.
+
+2- Obesidade abdominal como fator de risco para doenças cardiovasculares
+
+ 2-1  Contexto
+O contexto abordado nos textos diz respeito à relação entre obesidade abdominal e doenças cardiovasculares (DCV)
+Diversas pesquisas destacam a obesidade abdominal como um fator de risco significativo para o surgimento de enfermidades cardiovasculares.
+A obesidade abdominal é considerada uma epidemia global e um dos principais problemas de saúde da atualidade.
+Há uma preocupação crescente com a chegada cada vez mais precoce de doenças cardiovasculares em jovens.
+
+ 2-2  Dataset 
+O estudo se baseou em uma revisão de textos científicos em língua portuguesa, predominantemente nos últimos 10 anos (2010-2020) Foram empregadas as bases de dados LILACS, MEDLINE e SciELO para pesquisar artigos com os termos "Obesidade abdominal", "Doenças Cardiovasculares" e "Circunferência Abdominal". Essa abordagem permitiu uma avaliação atualizada e abrangente da conexão entre obesidade abdominal e enfermidades cardiovasculares.
+
+ 2-3  Medidas e resultados:
+Os textos mencionam diversas pesquisas que utilizaram medidas como a circunferência abdominal e a prevalência de obesidade abdominal para avaliar o risco de contrair doenças cardiovasculares.
+São citados os resultados de estudos realizados em diferentes regiões do Brasil, que mostram uma grande incidência de obesidade abdominal em diversas populações.
+Os resultados também são mencionados, sugerindo que a obesidade abdominal em jovens e adolescentes é um fator de risco para o surgimento de enfermidades cardiovasculares na fase adulta.
+Chegou-se à conclusão de que a obesidade abdominal é um fator de risco que pode ser modificado, enfatizando a relevância de incentivar a adoção de um estilo de vida mais saudável para prevenir o surgimento de enfermidades cardiovasculares.
+
+3- Simultaneidade de comportamentos de risco para a obesidade em adultos das capitais do Brasil
+
+ 3-1 Contexto
+O propósito do estudo é examinar a conexão entre a simultaneidade de comportamentos de risco e a obesidade em indivíduos com idades entre 18 e 59 anos em cidades brasileiras. Os comportamentos de risco incluem inatividade física, tempo prolongado sentado, consumo excessivo de doces e carnes vermelhas gordurosas ou frango com pele.
+
+ 3-2 Dataset 
+O estudo é transversal e com base na população, contando com 35.448 indivíduos entrevistados por telefone. As variáveis autorrelatadas são obesidade, definida pelo índice de massa corporal (IMC ≥ 30 kg/m2), e os comportamentos de risco mencionados anteriormente. O calendário é composto pelos resultados dessas entrevistas e dados sociodemográficos dos participantes.
+
+ 3-3 Medidas e resultados:
+As avaliações foram conduzidas por meio de regressões de Poisson e logística multinomial, levando em conta fatores sociodemográficos. Nos homens, o consumo de carnes gordurosas, o tempo desperdiçado sentado e a inatividade física, assim como a presença dos quatro comportamentos de risco, estão relacionados significativamente à obesidade. Nas mulheres, o consumo simultâneo de doces e carnes gordurosas também se associou ao final. Obesidade aumentou com o aumento do número de comportamentos de risco em ambos os sexos.
 
 # Descrição do _dataset_ selecionado
 
@@ -99,7 +138,11 @@ BRASIL. Ministério da Saúde. Vigitel 2022: Vigilância de Fatores de Risco e P
 
 Palechor, F. M., & de la Hoz Manotas, A. (2023). Obesity or CVD risk (Classify/Regressor/Cluster) [Conjunto de dados]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/7009925
 
+Os fatores de risco envolvidos na obesidade no adolescente: uma revisão integrativa. https://www.scielo.br/j/csc/a/YJBwJkN9H7Z8GbBKX5j7m8C/#
 
+Obesidade abdominal como fator de risco para doenças cardiovasculares. https://ojs.brazilianjournals.com.br/ojs/index.php/BJHR/article/view/18306/14782
+
+Simultaneidade de comportamentos de risco para a obesidade em adultos das capitais do Brasil. https://www.scielosp.org/pdf/csc/v25n8/1413-8123-csc-25-08-2999.pdf
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho utilizando o padrão ABNT.
 
