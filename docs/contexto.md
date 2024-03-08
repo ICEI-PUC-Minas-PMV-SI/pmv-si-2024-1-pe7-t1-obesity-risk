@@ -1,6 +1,6 @@
 # Introdução
 
-**BERNARDO - PREENCHEREI ESSA PARTE AO FINAL**: *Texto descritivo introdutório apresentando a visão geral do projeto a ser desenvolvido considerando o contexto em que ele se insere, os objetivos gerais, a justificativa e o público-alvo do projeto.*
+A obesidade configura-se como um desafio de saúde pública de proporções globais. De acordo com dados da Organização Mundial da Saúde (OMS) de 2023, mais de 1 bilhão de adultos estão acima do peso, dos quais 650 milhões são obesos. Diante de tamanho desafio, soluções tecnológicas podem somar para mitigar os efeitos deletérios desse desafio. Este projeto visa desenvolver modelos de aprendizado de máquina para classificar, identificar fatores de risco, prever mudanças nos níveis de obesidade e segmentar dados visando intervenções personalizadas com base em hábitos alimentares, condição física e dados demográficos. O público-alvo inclui profissionais da saúde, pesquisadores, órgãos governamentais e indivíduos interessados em melhorar sua saúde e qualidade de vida.
 
 ## Problema
 
@@ -134,26 +134,17 @@ As perguntas da pesquisa e mais informações podem ser encontradas neste artigo
 # Canvas analítico
 
 ![Canvas Analítico](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/assets/78939209/742c928c-2a28-4258-8936-e67f3922622f)
-<!-- 
-Nesta seção, você deverá estruturar o seu Canvas Analítico. O Canvas Analítico tem o papel de registrar a organização das ideias e apresentar o modelo de negócio.
-
-> **Links Úteis**:
-> - [Modelo do Canvas Analítico](https://github.com/ICEI-PUC-Minas-PMV-SI/PesquisaExperimentacao-Template/blob/main/help/Software-Analtics-Canvas-v1.0.pdf)
--->
 
 # Referências
 
+ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). Obesidade e sobrepeso. https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight (acessado em 8 de março de 2024).
+
 BRASIL. Ministério da Saúde. Vigitel 2022: Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico. Brasília: Ministério da Saúde, 2023.
 
-Palechor, F. M., & de la Hoz Manotas, A. (2023). Obesity or CVD risk (Classify/Regressor/Cluster) [Conjunto de dados]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/7009925
+PALECHOR, F. M.; DE LA HOZ MANOTAS, A. Obesity or CVD risk (Classify/Regressor/Cluster) [Conjunto de dados]. Kaggle, 2023. Disponível em: https://doi.org/10.34740/KAGGLE/DSV/7009925. Acesso em: 8 mar. 2024.
 
-Os fatores de risco envolvidos na obesidade no adolescente: uma revisão integrativa. https://www.scielo.br/j/csc/a/YJBwJkN9H7Z8GbBKX5j7m8C/#
+NEVES, S. C. et al.. Os fatores de risco envolvidos na obesidade no adolescente: uma revisão integrativa. Ciência & Saúde Coletiva, v. 26, p. 4871–4884, out. 2021.
 
-Obesidade abdominal como fator de risco para doenças cardiovasculares. https://ojs.brazilianjournals.com.br/ojs/index.php/BJHR/article/view/18306/14782
+ALBUQUERQUE, F. L. S. et al. Obesidade abdominal como fator de risco para doenças cardiovasculares / Abdominal obesity as a risk factor for cardiovascular diseases. Brazilian Journal of Health Review, v. 3, n. 5, p. 14529-14536, 2020. DOI: 10.34119/bjhrv3n5-248.
 
-Simultaneidade de comportamentos de risco para a obesidade em adultos das capitais do Brasil. https://www.scielosp.org/pdf/csc/v25n8/1413-8123-csc-25-08-2999.pdf
-
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho utilizando o padrão ABNT.
-
-> **Links Úteis**:
-> - [Padrão ABNT PUC Minas](https://portal.pucminas.br/biblioteca/index_padrao.php?pagina=5886)
+STREB, A. R. et al. Simultaneidade de comportamentos de risco para a obesidade em adultos das capitais do Brasil [Simultaneity of risk behaviors for obesity in adults in the capitals of Brazil]. Ciência & Saúde Coletiva, Rio de Janeiro, v. 25, n. 8, p. 2999-3007, ago. 2020. DOI: 10.1590/1413-81232020258.27752018.
