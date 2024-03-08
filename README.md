@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Obesity Risk
 
 `CURSO: Sistemas de Informação`
 
@@ -6,7 +6,7 @@
 
 `SEMESTRE: 7º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto visa desenvolver modelos de aprendizado de máquina para classificar, identificar fatores de risco, prever mudanças nos níveis de obesidade e segmentar dados visando intervenções personalizadas com base em hábitos alimentares, condição física e dados demográficos.
 
 ## Integrantes
 
