@@ -2,7 +2,6 @@
 
 O conjunto de dados selecionado, Risco de Obesidade, suscitou diversos desafios durante sua análise exploratória, conduzindo-nos a insights significativos acerca da natureza dos dados. Esta investigação permitiu a mitigação de viéses inerentes e proporcionou uma compreensão mais abrangente das informações contidas no conjunto de dados em questão.
 Por meio da análise das informações derivadas do processamento dos dados, foi possível discernir tendências emergentes, estabelecer relações significativas e identificar proporcionalidades entre as variáveis consideradas.
-
 Na figura em análise, é apresentada a relação entre o tipo de transporte adotado pelos indivíduos participantes do estudo e seus respectivos níveis de consumo diário de água. Para essa representação, optou-se por um gráfico de barras simples, uma escolha adequada para ilustrar a distribuição e proporção dos dados categóricos. Cada barra no gráfico corresponde a um tipo específico de transporte, e a altura de cada barra indica a média ou a proporção do consumo diário de água associado a esse tipo de transporte. Essa abordagem visual permite uma rápida comparação entre os diferentes modos de transporte e seus padrões de consumo de água, facilitando a identificação de tendências ou disparidades significativas entre os grupos.
 ![image 01](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/assets/78939209/c66cb392-9180-48f0-adf3-b78d136e45a1)
 
@@ -26,13 +25,15 @@ Essa análise pode fornecer insights importantes para intervenções de saúde p
 A tabela de correlação, frequentemente representada na forma de um mapa de calor, é uma ferramenta poderosa na análise de dados que busca identificar e visualizar relações entre variáveis. Esta tabela apresenta os coeficientes de correlação entre todas as combinações de variáveis em um conjunto de dados, onde cada célula na tabela representa o valor da correlação entre duas variáveis. O uso da tabela de correlação e do mapa de calor permite identificar padrões e relações entre variáveis de forma rápida e eficiente. Isso é especialmente útil em conjuntos de dados com muitas variáveis, onde seria difícil examinar todas as possíveis combinações manualmente.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/assets/78939209/4a8a9d49-61fa-4341-bf41-d6fae333d7e1)
 
+Todos as informações foram extraídas da tabela abaixo.
+|index|Gender|Age|Height|Weight|family\_history\_with\_overweight|FAVC|FCVC|NCP|CAEC|SMOKE|CH2O|SCC|FAF|TUE|CALC|MTRANS|NObeyesdad|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|0|Female|20|1\.54|39\.0|yes|yes|1|3|Sometimes|no|2|no|3\.0|2\.0|Sometimes|Public\_Transportation|Insufficient\_Weight|
+|1|Female|18|1\.59|40\.0|yes|yes|2|1|Frequently|no|1|no|0\.0|2\.0|no|Public\_Transportation|Insufficient\_Weight|
+|2|Female|21|1\.52|42\.0|no|no|3|1|Frequently|no|1|no|0\.0|0\.0|Sometimes|Public\_Transportation|Insufficient\_Weight|
+|3|Female|21|1\.52|42\.0|no|no|3|1|Frequently|no|1|no|0\.0|0\.0|Sometimes|Public\_Transportation|Insufficient\_Weight|
+|4|Female|19|1\.53|42\.0|no|no|2|3|Sometimes|no|1|yes|2\.0|0\.0|Frequently|Public\_Transportation|Insufficient\_Weight|
 
-
-Nesta seção, você deverá registrar uma detalhada análise descritiva e exploratória sobre a base de dados selecionada na Etapa 1 com o objetivo de compreender a estrutura dos dados, detectar eventuais _outliers_ e também, avaliar/detectar as relações existentes entre as variáveis analisadas.
-
-Para isso, sugere-se que você utilize cálculos de medidas de tendência central, como média, mediana e moda, para entender a centralidade dos dados; explorem medidas de dispersão como desvio padrão e intervalos interquartil para avaliar a variabilidade dos dados; utilizem gráficos descritivos como histogramas e box plots, para representar visualmente as características essenciais dos dados, pois essas visualizações podem facilitar a identificação de padrões e anomalias; analisem a relação aparente entre as variáveis por meio de análise de correlação ou gráficos de dispersões, entre outras técnicas. 
-
-Inclua nesta seção, gráficos, tabelas e demais artefatos que você considere relevantes para entender os dados com os quais você irá trabalhar. 
 
 ## Descrição dos achados
 
@@ -40,5 +41,13 @@ A partir da análise descrita e exploratória realizada, descreva todos os achad
 
 ## Ferramentas utilizadas
 
-Existem muitas ferramentas diferentes que podem ser utilizadas para fazer a análise dos dados. Nesta seção, descreva as ferramentas/tecnologias utilizadas e sua aplicação.
+Para a condução da análise de dados, recorreu-se ao Google Colab, uma plataforma que viabiliza a execução de códigos na linguagem Python de maneira eficiente e acessível. No decorrer desta análise, foram empregadas diversas bibliotecas especializadas, a saber:
+
+- **Pandas:** Essencial para o processamento e manipulação dos dados. Com esta biblioteca, foi possível importar o conjunto de dados no formato .xlsx, permitindo a sua subsequente manipulação para a geração de gráficos elucidativos.
+- **Matplotlib.pyplot:** Uma ferramenta indispensável para a visualização de dados. Através do Matplotlib.pyplot, concretizou-se a criação de gráficos, fundamentais para a extração de insights e indicadores valiosos a partir do conjunto de dados.
+- **Numpy:** Essencial para a execução de operações matemáticas complexas, Numpy facilitou o manuseio de arrays e a realização de cálculos necessários para a elaboração de gráficos avançados.
+- **ydata_profiling e Sweetviz:** Ambas as bibliotecas representam recursos poderosos para a análise exploratória de dados (Exploratory Data Analysis - EDA), através da criação de dashboards interativos que proporcionam uma compreensão aprofundada do conjunto de dados.
+- **OS:** A biblioteca OS foi utilizada para interagir com o sistema operacional, permitindo a navegação entre pastas e a seleção adequada do conjunto de dados para análise.
+
+O uso integrado dessas ferramentas no Google Colab não só otimizou o processo de análise de dados, mas também enriqueceu o estudo com análises detalhadas, permitindo um entendimento mais profundo e a geração de conclusões baseadas em dados robustos.
 
