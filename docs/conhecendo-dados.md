@@ -37,7 +37,11 @@ Todos as informações foram extraídas da tabela abaixo.
 
 ## Descrição dos achados
 
-A partir da análise descrita e exploratória realizada, descreva todos os achados considerados relevantes para o contexto em que o trabalho se insere. Por exemplo: com relação à centralidade dos dados algo chamou a sua atenção? foi possível identificar correlação entre os atributos?
+Através da análise e visualização dos dados, alcançamos uma compreensão mais profunda do tema investigado, superando assim possíveis vieses e preconceitos prévios. Este processo revelou insights significativos, demonstrando, por exemplo, uma conexão direta entre o uso da tecnologia e o nível de obesidade dos indivíduos, bem como a influência do meio de transporte escolhido sobre a mesma condição. Uma descoberta surpreendente foi a ausência de correlação entre o hábito de fumar e os níveis de obesidade, contrariando possíveis expectativas iniciais.
+
+Adicionalmente, os dados elucidaram uma relação positiva entre a disciplina alimentar e o consumo regular de água com a manutenção de um peso saudável. Estas observações sublinham a importância da alimentação equilibrada e da hidratação adequada para a promoção da saúde e do bem-estar.
+
+Em suma, a visualização de dados não apenas facilitou uma interpretação mais rica e variada dos dados coletados, mas também permitiu desmistificar concepções errôneas, oferecendo um panorama mais claro e embasado sobre os fatores que influenciam o estado nutricional dos indivíduos.
 
 ## Ferramentas utilizadas
 
