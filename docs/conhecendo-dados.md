@@ -20,7 +20,7 @@ Para essa análise, utilizamos o gráfico em barras empilhados
 
 O gráfico revela uma associação marcante entre comer ocasionalmente entre as refeições e a classificação em categorias de sobrepeso e obesidade. Os dados indicam que aqueles que relataram esse comportamento alimentar estão predominantemente incluídos nas categorias de sobrepeso nível I, sobrepeso nível II, e nos estágios de obesidade tipo 1, tipo 2 e tipo 3. Essa correlação sugere que comer entre as refeições pode contribuir significativamente para o ganho de peso excessivo. Fatores como excesso de calorias, ingestão descontrolada e padrões alimentares irregulares podem desempenhar um papel crucial nessa relação. 
 
-![CAEC X NObeyesdad]([url_da_imagem](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/docs/img/CAEC%20X%20NObeyesdad.png))
+![CAEC X NObeyesdad](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/docs/img/CAEC%20X%20NObeyesdad.png)
 
 No gráfico de dispersão utilizado para analisar a correlação entre os níveis de obesidade e o tempo de uso de aparelhos tecnológicos, observa-se uma tendência clara: indivíduos com obesidade de nível 1 tendem a apresentar um maior tempo de uso de aparelhos tecnológicos em comparação com os outros níveis de obesidade representados no gráfico.
 Essa observação sugere uma possível associação entre o tempo de uso de aparelhos tecnológicos e o desenvolvimento de obesidade de nível 1. No entanto, é importante ressaltar que correlação não implica necessariamente em causalidade. Ou seja, embora exista essa relação aparente, outros fatores podem estar influenciando tanto o tempo de uso de aparelhos tecnológicos quanto o nível de obesidade dos indivíduos.
