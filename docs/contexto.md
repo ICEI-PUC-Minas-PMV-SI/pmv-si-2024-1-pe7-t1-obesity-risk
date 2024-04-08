@@ -39,7 +39,7 @@ Entender os fatores de risco e como eles interagem para influenciar os níveis d
 A análise detalhada deste dataset, que inclui dados de hábitos alimentares, condição física e dados demográficos de indivíduos de países diferentes, oferece uma oportunidade única de investigar as possíveis causas da obesidade em contextos culturais e geográficos específicos. Isso pode gerar insights importantes sobre como abordagens personalizadas para prevenção e tratamento podem ser mais eficazes em diferentes populações. Estudos recentes, como aqueles conduzidos pelo Instituto Nacional de Saúde dos Estados Unidos (NIH), demonstraram a eficácia de intervenções personalizadas que levam em consideração fatores genéticos, metabólicos e comportamentais na prevenção e tratamento da obesidade. (Fonte: NIH - https://www.nih.gov/news-events/nih-research-matters/personalized-diets-may-improve-health-more-traditional-advice)
 
 ## Público-Alvo
-O nosso público-alvo é diversificado e abrange diferentes perfis que podem se beneficiar das análises e conclusões resultantes da pesquisa sobre obesidade. Esses perfis incluem:
+O público-alvo deste projeto é diversificado e abrange diferentes perfis que podem se beneficiar das análises e conclusões resultantes da pesquisa sobre obesidade. Esses perfis incluem:
 
 1. Profissionais da Saúde:
    Médicos, nutricionistas, psicólogos, educadores físicos e outros profissionais da saúde interessados em compreender melhor os fatores que contribuem para a obesidade.
