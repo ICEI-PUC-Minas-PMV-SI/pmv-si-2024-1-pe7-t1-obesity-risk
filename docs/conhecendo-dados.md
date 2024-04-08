@@ -18,7 +18,7 @@ Essa observação pode ser crucial para o desenvolvimento de estratégias de int
 Para essa análise, utilizamos o gráfico em barras empilhados
 ![image 04](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/assets/78939209/181a94e6-3446-4dd8-bc5c-dc4a08f39047)
 
-O gráfico revela uma associação marcante entre comer ocasionalmente entre as refeições e a classificação em categorias de sobrepeso e obesidade. Os dados indicam que aqueles que relataram esse comportamento alimentar estão predominantemente incluídos nas categorias de sobrepeso nível I, sobrepeso nível II, e nos estágios de obesidade tipo 1, tipo 2 e tipo 3. Essa correlação sugere que comer entre as refeições pode contribuir significativamente para o ganho de peso excessivo. Fatores como excesso de calorias, ingestão descontrolada e padrões alimentares irregulares podem desempenhar um papel crucial nessa relação. 
+O gráfico abaixo revela uma associação marcante entre comer ocasionalmente entre as refeições e a classificação em categorias de sobrepeso e obesidade. Os dados indicam que aqueles que relataram esse comportamento alimentar estão predominantemente incluídos nas categorias de sobrepeso nível I, sobrepeso nível II, e nos estágios de obesidade tipo 1, tipo 2 e tipo 3. Essa correlação sugere que comer entre as refeições pode contribuir significativamente para o ganho de peso excessivo. Fatores como excesso de calorias, ingestão descontrolada e padrões alimentares irregulares podem desempenhar um papel crucial nessa relação. 
 
 ![CAEC X NObeyesdad](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/docs/img/CAEC%20X%20NObeyesdad.png)
 
