@@ -1,6 +1,6 @@
 # Introdução
 
-A obesidade configura-se como um desafio de saúde pública de proporções globais. De acordo com dados da Organização Mundial da Saúde (OMS), mais de 1 bilhão de adultos estão acima do peso, dos quais 650 milhões são obesos (OMS, 2023). Diante de tamanho desafio, soluções tecnológicas podem somar para mitigar os efeitos deletérios desse desafio. Este projeto visa desenvolver modelos de aprendizado de máquina para classificar, identificar fatores de risco, prever mudanças nos níveis de obesidade e segmentar dados visando intervenções personalizadas com base em hábitos alimentares, condição física e dados demográficos.
+A obesidade configura-se como um desafio de saúde pública de proporções globais. De acordo com dados da Organização Mundial da Saúde (OMS), mais de 1 bilhão de adultos estão acima do peso, dos quais 650 milhões são obesos (OMS, 2023). Diante de tamanho desafio, soluções tecnológicas podem somar para mitigar os efeitos deletérios desse desafio. Este projeto visa desenvolver modelos de aprendizado de máquina para classificar, identificar fatores de risco, prever mudanças nos níveis de obesidade e segmentar dados.
 
 ## Problema
 
