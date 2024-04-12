@@ -15,11 +15,14 @@ Nesta seção, descrevemos as técnicas utilizadas para o pré-processamento e t
 ### Transformação de Dados
 
 * **Gender**: optamos por substituir _Female_ por 0 e _Male_ por 1, escolhemos essa ordem devido a Male corresponder a 51% dos casos.
-* **family_history_with_overweight**: optamos por substituir _False_ por 0 e _True_ por 1.
+* **family_history_with_overweight**: optamos por substituir _No_ por 0 e _Yes_ por 1.
 * **FAVC**: optamos por substituir _No_ por 0 e _Yes_ por 1.
+* **SMOKE**: optamos por substituir _No_ por 0 e _Yes_ por 1.
+* **SCC**: optamos por substituir _No_ por 0 e _Yes_ por 1.
 * **CAEC**: optamos por utilizar a técnica de _One-Hot Encoding_, criando os atributos binários onde 0 significa _False_ e 1 significa _True_. Serão os seguintes atributos criados: _Sometimes, Frequently, Always e No_.
 * **CALC**: optamos por utilizar a técnica de _One-Hot Encoding_, criando os atributos binários onde 0 significa _False_ e 1 significa _True_. Serão os seguintes atributos criados: _Sometimes, Frequently, Always e No_.
 * **MTRANS**: optamos por utilizar a técnica de _One-Hot Encoding_, criando os atributos binários onde 0 significa _False_ e 1 significa _True_. Serão os seguintes atributos criados: _Public Transportation, Automobile, Walking, Motorbike e Bike_.
+* **NObeyesdad**: optamos por utilizar a técnica de _One-Hot Encoding_, criando os atributos binários onde 0 significa _False_ e 1 significa _True_. Serão os seguintes atributos criados: _Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, Obesity Type III_.
 
 ### _Feature Engineering_: crie novos atributos que possam ser mais informativos para o modelo; selecione características relevantes e descarte as menos importantes.
 
