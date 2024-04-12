@@ -24,19 +24,11 @@ Nesta seção, descrevemos as técnicas utilizadas para o pré-processamento e t
 * **MTRANS**: optamos por utilizar a técnica de _One-Hot Encoding_, criando os atributos binários onde 0 significa _False_ e 1 significa _True_. Serão os seguintes atributos criados: _Public Transportation, Automobile, Walking, Motorbike e Bike_.
 * **NObeyesdad**: optamos por utilizar a técnica de _One-Hot Encoding_, criando os atributos binários onde 0 significa _False_ e 1 significa _True_. Serão os seguintes atributos criados: _Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, Obesity Type III_.
 
-### _Feature Engineering_: crie novos atributos que possam ser mais informativos para o modelo; selecione características relevantes e descarte as menos importantes.
+### _Feature Engineering_
+Optamos por criar o atributo IMC onde faremos manualmente o cálculo do Índice de Massa Corporal = Peso / (Altura x Altura) para verificar se o valor em _NObeyesdad_ classifica corretamente. Consideraremos os intervalos conforme os níveis determinados pela Organização Mundial de Saúde (OMS, 2022). Para o valor de "Pre-obesity", chamaremos de sobrepeso e agregaremos os níveis 1 e 2.
 
-### Tratamento de dados desbalanceados: se as classes de interesse forem desbalanceadas, considere técnicas como _oversampling_, _undersampling_ ou o uso de algoritmos que lidam naturalmente com desbalanceamento.
-
-### Separação de dados: divida os dados em conjuntos de treinamento, validação e teste para avaliar o desempenho do modelo de maneira adequada.
-  
-### Manuseio de Dados Temporais: se lidar com dados temporais, considere a ordenação adequada e técnicas específicas para esse tipo de dado.
-  
-### Redução de Dimensionalidade: aplique técnicas como PCA (Análise de Componentes Principais) se a dimensionalidade dos dados for muito alta.
-
-### Validação Cruzada: utilize validação cruzada para avaliar o desempenho do modelo de forma mais robusta.
-
-### Monitoramento Contínuo: atualize e adapte o pré-processamento conforme necessário ao longo do tempo, especialmente se os dados ou as condições do problema mudarem.
+### Separação de dados
+Os dados foram divididos em conjuntos de treinamento (70%), validação (15%) e teste (15%) visando garantir um bom desempenho do modelo.
 
 # Descrição dos modelos
 
@@ -59,3 +51,6 @@ Nesta seção, discuta os resultados obtidos pelos modelos construídos, no cont
 # Pipeline de pesquisa e análise de dados
 
 Em pesquisa e experimentação em sistemas de informação, um pipeline de pesquisa e análise de dados refere-se a um conjunto organizado de processos e etapas que um profissional segue para realizar a coleta, preparação, análise e interpretação de dados durante a fase de pesquisa e desenvolvimento de modelos. Esse pipeline é essencial para extrair _insights_ significativos, entender a natureza dos dados e, construir modelos de aprendizado de máquina eficazes. 
+
+# Referências Bibliográficas
+ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). A healthy lifestyle - WHO recommendations. [S.l.: s.n.], 2020. Disponível em: https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations. Acesso em: 12 abr. 2024.
