@@ -1,3 +1,12 @@
+#Pergunta orientada a dados (???)
+Justificar a definição / diferença da questão de pesquisa
+
+#Tipos de dados do dataset
+Qual o tipo de cada um dos atributos?
+
+#Outras bases de dados úteis (???)
+Justificar a utilização de outras bases
+
 # Preparação dos dados
 
 Nesta seção, descrevemos as técnicas utilizadas para o pré-processamento e tratamento dos dados do dataset.
