@@ -1,4 +1,4 @@
-# Pergunta orientada a dados (???)
+# Pergunta orientada a dados
 
 Neste estudo, analisamos dados de dieta e estilo de vida para compreender os padrões associados à obesidade. Nosso objetivo é identificar os fatores que contribuem para esses problemas de saúde e desenvolver estratégias de prevenção. Execute análises detalhadas, incluindo processamento de dados, transformação e engenharia de recursos.
 
