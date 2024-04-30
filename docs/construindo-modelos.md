@@ -8,26 +8,26 @@ Neste estudo, analisamos dados de dieta e estilo de vida para compreender os pad
  - Conjunto de dados: Por fim, os dados são divididos em conjuntos de treinamento, validação e teste. Esta etapa é importante para avaliar o desempenho do seu modelo de análise e garantir que ele possa ser estendido para novos dados que não foram utilizados para treinamento. Para garantir uma distribuição justa dos dados, escolhemos 70% para treinamento e 15% para validação e teste. Essas etapas são importantes para preparar os dados para análise e garantir a confiabilidade dos resultados. Também ajuda a esclarecer a definição e a diversidade das questões de investigação e fornece informações valiosas sobre padrões e tendências em dados relacionados com a saúde e a obesidade.
 
 # Tipos de dados do dataset
-Os atributos no conjunto de dados podem ser classificados em diferentes tipos:
 
- **Numéricos:**
-   - Idade
-   - Número de refeições principais (NCP)
-   - Frequência de consumo de vegetais (FCVC)
-   - Consumo de água diário (CH2O)
-   - Frequência de atividade física (FAF)
-     
-**Categóricos:**
-   - Gênero
-   - Histórico familiar de sobrepeso (family_history_with_overweight)
-   - Consumo de alimentos com alta caloria entre as refeições (FAVC)
-   - Fumaça (SMOKE)
-   - Consumo de calorias entre as refeições (CAEC)
-   - Consumo de bebidas alcoólicas (CALC)
-   - Meio de transporte (MTRANS)
-   - Binários (codificados como 0 ou 1):
-   - Sobremesa após as refeições (SCC)
-   - Condição de saúde (NObeyesdad)
+| Variável | Tipo | Faixa de Valores |
+|---|---|---|
+| Gênero (Gender) | Categórica nominal | Masculino (Male), Feminino (Female) |
+| Idade (Age) | Quantitativa discreta | 17 a 61 |
+| Altura (Height) | Quantitativa contínua  | 1.45 a 1.98 |
+| Peso (Weight) | Quantitativa contínua  | 39 a 173 |
+| Histórico familiar de sobrepeso (family_history_with_overweight) | Categórica nominal  | Sim (Yes), Não (No) |
+| Consumo de alimentos com alta caloria entre as refeições (FAVC) | Categórica nominal  | Sim (Yes), Não (No) |
+| Frequência de consumo de vegetais (FCVC) | Quantitativa discreta | 1 a 3 |
+| Número de Refeições Principais (NCP) | Quantitativa discreta | 1 a 4 |
+| Consumo de alimentos entre as refeições (CAEC)) | Categórica ordinal | Não (No), Às vezes (Sometimes), Frequentemente (Frequently), Sempre (Always) |
+| Tabagismo (Smoke) | Categórica nominal | Sim (Yes), No (Não) |
+| Consumo de água diário (CH2O) | Quantitativa discreta  | 1 a 3 |
+| Monitoramento do consumo de calorias (SCC) | Categórica nominal | Sim (Yes), No (Não) |
+| Frequência de atividade física (FAF) | Quantitativa discreta  | 0 a 3 |
+| Tempo usando dispositivos tecnológicos (TUE) | Quantitativa discreta  | 0 a 2 |
+| Consumo de álcool (CALC)) | Categórica ordinal | Não (No), Às vezes (Sometimes), Frequentemente (Frequently), Sempre (Always) |
+| Meio de transporte utilizado (MTRANS) | Categórica nominal | Transporte público (Public_Transportation), Carro (Automobile), Andando (Walking), Moto (Motorbike), Bicicleta (Bike) |
+| Nível de obesidade (NObeyesdad)) | Categórica ordinal | Normal (Normal_Weight), Sobrepeso grau I (Overweight_Level_I), Sobrepeso grau II (Overweight_Level_II), Obesidade grau I (Obesity_Type_I), Obesidade grau II (Obesity_Type_II), Obesidade grau III (Obesity_Type_III) |
 
 # Preparação dos dados
 
