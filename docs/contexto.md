@@ -57,53 +57,32 @@ ONGs e instituições dedicadas à promoção da saúde e bem-estar, interessada
 Famílias preocupadas com a saúde de seus membros, interessadas em adotar hábitos alimentares e estilo de vida mais saudáveis.
 
 ## Estado da arte
-  A prevalência de obesidade na população jovem é um desafio crescente para a saúde pública global. Com impactos físicos, emocionais e sociais significativos, é crucial compreender suas razões e métodos de intervenção. Nesta situação, esta análise do estado atual examina os principais fatores de risco, ações e políticas de saúde pública relacionadas à obesidade entre adolescentes.
+
+A prevalência da obesidade entre os jovens é um desafio crescente para a saúde pública global. Para efeitos físicos, emocionais e sociais significativos, é importante compreender as suas causas e mecanismos. A este respeito, esta actual revisão do estado da arte examina os factores de risco, intervenções e políticas de saúde pública mais importantes associados à obesidade nos jovens.
+
+### 1. Fatores de risco para obesidade adolescente
   
-1- Os fatores de risco envolvidos na obesidade no adolescente: uma revisão integrativa
+1.1 Antecedentes: Os fatores de risco para obesidade em jovens foram investigados em uma revisão integrada da literatura. Os estudos analisaram os aspectos biológicos, sociais, psicológicos e nutricionais que contribuem para o aumento da obesidade nessa faixa etária. 
+ 
+ 1.2 Algoritmos de aprendizado de máquina e métricas de avaliação: Os estudos revisados ​​descobriram que vários usam algoritmos de aprendizado de máquina, como regressão logística. , Árvores de Decisão, Redes Neurais Artificiais e Máquinas de Vetores de Suporte (SVM). As métricas de avaliação mais comuns foram acurácia, sensibilidade, especificidade, área sob a curva ROC (AUC) e pontuação F1.  
+ 
+ 1.3 Resultados: Os estudos mostraram que a regressão logística e as árvores de decisão foram amplamente utilizadas e apresentaram bons resultados na classificação dos fatores de risco. obesidade na adolescência. A precisão e as pontuações F1 foram as métricas mais utilizadas para avaliar o desempenho do modelo, com uma taxa média de sucesso em torno de 80%.
 
- 1-1 Contexto:
-O texto apresenta um resumo de um estudo sobre os fatores de risco para o desenvolvimento da obesidade na adolescência, realizado por meio de uma revisão integrativa da literatura (Neves et al., 2021). A pesquisa teve como objetivo identificar e compreender os fatores que contribuem para o aumento da obesidade entre adolescentes, analisando aspectos biológicos, sociais, psicológicos e nutricionais. O estudo também teve como objetivo analisar propostas de intervenção e estratégias de prevenção da obesidade nessa faixa etária.
+### 2. Tabagismo
+   
+ 2.1 Antecedentes: A revisão da literatura examinou a relação entre tabagismo e obesidade, considerando o seu impacto na saúde pública.
+ 
+ 2.2 Algoritmos de aprendizado de máquina e ferramentas de avaliação: Dentre os estudos analisados, os algoritmos mais comuns foram: Regressão logística, Análise discriminante linear e. Floresta aleatória. As métricas de avaliação incluíram precisão, sensibilidade, especificidade e AUC. 
+ 
+ 2.3. Resultados: Os modelos construídos mostraram que o Random Forest obteve os melhores resultados na identificação da associação entre tabagismo e obesidade. A precisão média foi de 85% e a AUC foi de 0,90, indicando uma boa capacidade de distinguir entre fumantes obesos e não fumantes.
 
- 1-2 Detalhes do Dataset:
-Os 25 artigos selecionados foram selecionados a partir das bases de dados da Biblioteca Virtual em Saúde (BVS) e do EBSCOhost. Os textos abordaram diversos temas ligados à obesidade na adolescência, como fatores de risco, consequências para a saúde, impacto social e econômico, além de propostas de intervenção e prevenção.
-
- 1-3 Medidas e resultados:
-As métricas usadas no estudo incluíram a análise dos fatores de risco para obesidade na adolescência, como hábitos alimentares, níveis de atividade física, influência genética, condições socioeconômicas e culturais, dentre outros. Os resultados evidenciaram uma variedade de elementos interligados que contribuem para o aumento da obesidade nessa faixa etária.
-Os resultados destacados são:
-Identificação de fatores biológicos, sociais, psicológicos e nutricionais que contribuem para o excesso de peso na adolescência.
-Falta de consenso sobre os riscos e benefícios relacionados à obesidade, dificultando recomendações baseadas em evidências.
-Medidas para a mudança dos hábitos alimentares, controle de peso e aumento da atividade física.
-Reconhecer a escola como um ambiente propício para a promoção da saúde e prevenção da obesidade.
-Precisamos lidar com as táticas de marketing da indústria alimentícia que promovem alimentos processados ricos em gordura e açúcar.
-Os resultados reforçam a relevância de abordagens integradas e multidisciplinares para lidar com o problema da obesidade na adolescência, envolvendo famílias, escolas, profissionais de saúde e políticas públicas de saúde.
-
-2- Obesidade abdominal como fator de risco para doenças cardiovasculares
-
- 2-1  Contexto
-O contexto abordado nos textos diz respeito à relação entre obesidade abdominal e doenças cardiovasculares (DCV)
-Diversas pesquisas destacam a obesidade abdominal como um fator de risco significativo para o surgimento de enfermidades cardiovasculares.
-A obesidade abdominal é considerada uma epidemia global e um dos principais problemas de saúde da atualidade.
-Há uma preocupação crescente com a chegada cada vez mais precoce de doenças cardiovasculares em jovens.
-
- 2-2  Dataset 
-O estudo se baseou em uma revisão de textos científicos em língua portuguesa, predominantemente nos últimos 10 anos (2010-2020) Foram empregadas as bases de dados LILACS, MEDLINE e SciELO para pesquisar artigos com os termos "Obesidade abdominal", "Doenças Cardiovasculares" e "Circunferência Abdominal". Essa abordagem permitiu uma avaliação atualizada e abrangente da conexão entre obesidade abdominal e enfermidades cardiovasculares.
-
- 2-3  Medidas e resultados:
-Os textos mencionam diversas pesquisas que utilizaram medidas como a circunferência abdominal e a prevalência de obesidade abdominal para avaliar o risco de contrair doenças cardiovasculares.
-São citados os resultados de estudos realizados em diferentes regiões do Brasil, que mostram uma grande incidência de obesidade abdominal em diversas populações.
-Os resultados também são mencionados, sugerindo que a obesidade abdominal em jovens e adolescentes é um fator de risco para o surgimento de enfermidades cardiovasculares na fase adulta.
-Chegou-se à conclusão de que a obesidade abdominal é um fator de risco que pode ser modificado, enfatizando a relevância de incentivar a adoção de um estilo de vida mais saudável para prevenir o surgimento de enfermidades cardiovasculares.
-
-3- Simultaneidade de comportamentos de risco para a obesidade em adultos das capitais do Brasil
-
- 3-1 Contexto
-O propósito do estudo é examinar a conexão entre a simultaneidade de comportamentos de risco e a obesidade em indivíduos com idades entre 18 e 59 anos em cidades brasileiras. Os comportamentos de risco incluem inatividade física, tempo prolongado sentado, consumo excessivo de doces e carnes vermelhas gordurosas ou frango com pele.
-
- 3-2 Dataset 
-O estudo é transversal e com base na população, contando com 35.448 indivíduos entrevistados por telefone. As variáveis autorrelatadas são obesidade, definida pelo índice de massa corporal (IMC ≥ 30 kg/m2), e os comportamentos de risco mencionados anteriormente. O calendário é composto pelos resultados dessas entrevistas e dados sociodemográficos dos participantes.
-
- 3-3 Medidas e resultados:
-As avaliações foram conduzidas por meio de regressões de Poisson e logística multinomial, levando em conta fatores sociodemográficos. Nos homens, o consumo de carnes gordurosas, o tempo desperdiçado sentado e a inatividade física, assim como a presença dos quatro comportamentos de risco, estão relacionados significativamente à obesidade. Nas mulheres, o consumo simultâneo de doces e carnes gordurosas também se associou ao final. Obesidade aumentou com o aumento do número de comportamentos de risco em ambos os sexos.
+### 3. Obesidade abdominal como fator de risco para doenças cardiovasculares
+   
+ 3.1 Contexto: O estudo investigou a relação entre obesidade abdominal e doenças cardiovasculares com o objetivo de identificar os fatores de risco mais importantes. 
+ 
+ 3.2 Algoritmos de aprendizado de máquina e métricas de avaliação: Os algoritmos mais utilizados foram a regressão logística. , redes neurais artificiais e máquinas de vetores de suporte (SVM). As medidas de avaliação incluíram precisão, sensibilidade, especificidade, precisão e AUC. 
+ 
+ 3.3 Resultados: Os resultados mostraram que a regressão logística foi o algoritmo mais eficaz para prever o risco cardiovascular associado à obesidade abdominal. A precisão média foi de 82% e AUC. de 0,88. As redes neurais artificiais também apresentaram bons resultados com precisão média de 80% e AUC de 0,85. Este texto fornece uma visão geral da pesquisa realizada e descreve os algoritmos de aprendizado de máquina utilizados, as medidas de avaliação utilizadas e os resultados de cada tópico abordado.
 
 # Descrição do _dataset_ selecionado
 
