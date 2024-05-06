@@ -29,6 +29,13 @@ Neste estudo, analisamos dados de dieta e estilo de vida para compreender os pad
 | Meio de transporte utilizado (MTRANS) | Categórica nominal | Transporte público (Public_Transportation), Carro (Automobile), Andando (Walking), Moto (Motorbike), Bicicleta (Bike) |
 | Nível de obesidade (NObeyesdad)) | Categórica ordinal | Normal (Normal_Weight), Sobrepeso grau I (Overweight_Level_I), Sobrepeso grau II (Overweight_Level_II), Obesidade grau I (Obesity_Type_I), Obesidade grau II (Obesity_Type_II), Obesidade grau III (Obesity_Type_III) |
 
+# Outras bases de dados úteis (Em progresso)
+A integração de uma base de dados com outros datasets é uma estratégia que pode proporcionar uma série de vantagens. Isso inclui aprimoramento da precisão dos modelos de previsão, expansão da diversidade de dados, entre outros benefícios.
+
+Em nossa busca por conjuntos de dados adicionais que poderiam enriquecer nossa pesquisa, encontramos o dataset ‘Diabetes Health Indicators Dataset’. Este conjunto de dados apresenta uma variedade de informações que, se correlacionadas com nossa base de dados atual, poderiam contribuir significativamente para a solução do problema identificado.
+
+Informações como ‘Fruits - Consumo de Frutas Por Dia’ e ‘Diabetes_012 - Sem diabetes, pré-diabetes, diabetes’ são exemplos de dados que poderiam agregar valor à nossa pesquisa, proporcionando novas perspectivas e insights valiosos.
+
 # Preparação dos dados
 
 Nesta seção, descrevemos as técnicas utilizadas para o pré-processamento e tratamento dos dados do dataset.
