@@ -22,7 +22,7 @@ A pergunta de pesquisa é mais ampla e abrangente, estabelecendo o tema geral da
 | Monitoramento do consumo de calorias (SCC) | Categórica nominal | Sim (Yes), No (Não) |
 | Frequência de atividade física (FAF) | Quantitativa discreta  | 0 a 3 |
 | Tempo usando dispositivos tecnológicos (TUE) | Quantitativa discreta  | 0 a 2 |
-| Consumo de álcool (CALC)) | Categórica ordinal | Não (No), Às vezes (Sometimes), Frequentemente (Frequently), Sempre (Always) |
+| Consumo de álcool (CALC) | Categórica ordinal | Não (No), Às vezes (Sometimes), Frequentemente (Frequently), Sempre (Always) |
 | Meio de transporte utilizado (MTRANS) | Categórica nominal | Transporte público (Public_Transportation), Carro (Automobile), Andando (Walking), Moto (Motorbike), Bicicleta (Bike) |
 | Nível de obesidade (NObeyesdad)) | Categórica ordinal | Peso insuficiente (Insufficient_Weight), Normal (Normal_Weight), Sobrepeso grau I (Overweight_Level_I), Sobrepeso grau II (Overweight_Level_II), Obesidade grau I (Obesity_Type_I), Obesidade grau II (Obesity_Type_II), Obesidade grau III (Obesity_Type_III) |
 
