@@ -89,7 +89,6 @@ A Árvore de Decisão é um algoritmo que classifica dados como um fluxograma, d
 
 - Interpretabilidade: A estrutura em árvore facilita a visualização e compreensão do processo de decisão, permitindo identificar quais atributos são mais importantes para a classificação.
 - Simplicidade: O algoritmo é relativamente simples de entender e implementar.
-- Versatilidade: Pode ser usado para problemas de classificação e regressão, e pode lidar com dados numéricos e categóricos.
 - Não requer normalização dos dados: A árvore de decisão não é afetada pela escala dos atributos.
 
 ### Limitações:
