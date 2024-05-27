@@ -67,40 +67,80 @@ Os dados foram divididos em conjuntos de treinamento (70%), validação (15%) e 
 
 # Descrição dos modelos
 
-REMOVER APÓS ADICIONAR OS MODELOS: <<< --------- Nesta seção, conhecendo os dados e de posse dos dados preparados, é hora de descrever os algoritmos de aprendizado de máquina selecionados para a construção dos modelos propostos. Inclua informações abrangentes sobre cada algoritmo implementado, aborde conceitos fundamentais, princípios de funcionamento, vantagens/limitações e justifique a escolha de cada um dos algoritmos. Explore aspectos específicos, como o ajuste dos parâmetros livres de cada algoritmo. Lembre-se de experimentar parâmetros diferentes e principalmente, de justificar as escolhas realizadas. GRAVAR O VIDEO!!! Como parte da comprovação de construção dos modelos, um vídeo de demonstração com todas as etapas de pré-processamento e de execução dos modelos deverá ser entregue. Este vídeo poderá ser do tipo _screencast_ e é imprescindível a narração contemplando a demonstração de todas as etapas realizadas. ----------- >>>
-
-1. **Árvore de Decisão**
+## 1. **Árvore de Decisão**
 
 A Árvore de Decisão é um algoritmo que classifica dados como um fluxograma, dividindo-os em grupos menores com base em perguntas sobre seus atributos. Essa estrutura em árvore facilita a interpretação do modelo, revelando quais características são mais importantes para determinar o nível de obesidade.
 
-No nosso modelo, limitamos a profundidade da árvore (max_depth=5) para evitar overfitting e usamos o índice de Gini como critério de divisão. O índice de Gini mede a impureza de um nó, ou seja, o quão misturadas estão as classes. O algoritmo busca a divisão que maximiza a redução da impureza, resultando em subconjuntos mais puros (com exemplos de classes mais semelhantes).
+- **Nós**: Representam pontos de decisão, onde os dados são divididos com base em um atributo específico.
+- **Ramos**: Conectam os nós e representam os possíveis resultados de uma decisão.
+- **Folhas**: Representam as classes finais ou valores previstos, indicando o resultado da classificação ou regressão.
 
-2. **Regressão Linear**
+### Princípios de Funcionamento:
+
+- **Divisão Recursiva**: A árvore de decisão começa com um nó raiz que contém todos os dados. O algoritmo seleciona o atributo que melhor divide os dados em subconjuntos mais homogêneos em relação à variável alvo. Essa divisão é feita com base em um critério de impureza, como o índice de Gini ou a entropia.
+- **Crescimento da Árvore**: O processo de divisão é repetido recursivamente para cada subconjunto de dados, criando novos nós e ramos até que um critério de parada seja atingido. Os critérios de parada podem incluir:
+    - Profundidade máxima da árvore (max_depth).
+    - Número mínimo de amostras em um nó para permitir uma nova divisão.
+    - Limite de impureza.
+    - Quando todos os exemplos em um nó pertencem à mesma classe ou quando não há mais atributos para dividir.
+- **Predição**: Uma vez que a árvore esteja construída, a classificação de uma nova amostra é feita percorrendo a árvore desde o nó raiz até uma folha, seguindo os ramos de acordo com os valores dos atributos da amostra. A classe ou valor previsto na folha final é a saída do modelo.
+
+### Vantagens:
+
+- Interpretabilidade: A estrutura em árvore facilita a visualização e compreensão do processo de decisão, permitindo identificar quais atributos são mais importantes para a classificação.
+- Simplicidade: O algoritmo é relativamente simples de entender e implementar.
+- Versatilidade: Pode ser usado para problemas de classificação e regressão, e pode lidar com dados numéricos e categóricos.
+- Não requer normalização dos dados: A árvore de decisão não é afetada pela escala dos atributos.
+
+### Limitações:
+
+- Overfitting: Árvores de decisão podem facilmente sofrer de overfitting, especialmente quando a profundidade da árvore não é limitada.
+- Instabilidade: Pequenas variações nos dados de treinamento podem levar a árvores de decisão muito diferentes.
+- Viés para atributos com muitas categorias: Atributos com muitas categorias podem ter um peso maior na decisão, mesmo que não sejam tão relevantes.
+
+### Justificativa da Escolha:
+
+A árvore de decisão foi escolhida por sua simplicidade, interpretabilidade e capacidade de lidar com dados numéricos e categóricos, características importantes para o problema de classificação do nível de obesidade. Além disso, a árvore de decisão permite identificar os atributos mais relevantes para a previsão, o que pode fornecer insights valiosos sobre os fatores que contribuem para a obesidade.
+
+No nosso modelo, limitamos a profundidade da árvore (max_depth=10) para evitar overfitting e usamos o índice de Gini como critério de divisão. O índice de Gini mede a impureza de um nó, ou seja, o quão misturadas estão as classes. O algoritmo busca a divisão que maximiza a redução da impureza, resultando em subconjuntos mais puros (com exemplos de classes mais semelhantes).
+
+## 2. **Regressão Linear**
 (Em construção)
 
 # Avaliação dos modelos criados
 
 ## Métricas utilizadas
 
-REMOVER APÓS ADICIONAR OS MODELOS: <<< --------- Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos deverão ser apresentadas (p. ex.: acurácia, precisão, recall, F1-Score, MSE etc.). A escolha de cada métrica deverá ser justificada, pois esta escolha é essencial para avaliar de forma mais assertiva a qualidade do modelo construído.------------ >>>
+## 1. **Árvore de Decisão**
+Para avaliar o desempenho do modelo, utilizamos as seguintes métricas:
 
-1. **Árvore de Decisão**
+- **Acurácia**: A acurácia mede a proporção de classificações corretas em relação ao total de amostras. É uma métrica importante para ter uma visão geral do desempenho do modelo, mas pode ser enganosa em casos de desequilíbrio de classes.
+
+- **Precisão**: A precisão mede a proporção de verdadeiros positivos (amostras corretamente classificadas como pertencentes a uma classe) em relação ao total de amostras classificadas como pertencentes a essa classe. É uma métrica útil quando o custo de falsos positivos é alto, como em diagnósticos médicos, onde um falso positivo pode levar a tratamentos desnecessários.
+
+- **Recall**: O recall mede a proporção de verdadeiros positivos em relação ao total de amostras que realmente pertencem à classe. É uma métrica importante quando o custo de falsos negativos é alto, como em detecção de fraudes, onde um falso negativo pode significar uma fraude não detectada.
+
+- **F1-Score**: O F1-score é a média harmônica entre precisão e recall, fornecendo um equilíbrio entre as duas métricas. É útil quando se deseja uma métrica única que combine a capacidade do modelo de identificar corretamente os positivos (precisão) e de encontrar todos os positivos (recall).
+
+Sendo assim, o **F1-score** se mostrou uma métrica mais adequada para avaliar o desempenho desse modelo, pois leva em consideração tanto a precisão quanto o recall, buscando um equilíbrio entre a capacidade do modelo de identificar corretamente os diferentes níveis de obesidade e de encontrar todos os casos de cada nível.
 
 
-2. **Regressão Linear**
+## 2. **Regressão Linear**
 (em construção)
 
 ## Discussão dos resultados obtidos
 
 REMOVER APÓS ADICIONAR OS MODELOS: <<<<< ---------- Nesta seção, discuta os resultados obtidos pelos modelos construídos, no contexto prático em que os dados se inserem, promovendo uma compreensão abrangente e aprofundada da qualidade de cada um deles. Lembre-se de relacionar os resultados obtidos ao problema identificado, a questão de pesquisa levantada e estabelecendo relação com os objetivos previamente propostos.------------- >>>>
 
-1. **Árvore de Decisão**
+## 1. **Árvore de Decisão**
 
+((((((((((((((
 Nosso modelo de Árvore de Decisão alcançou uma acurácia de 78,5% na validação e 83,6% no teste. O desempenho foi bom na maioria das classes, exceto na classe 1 (obesidade tipo I), indicando a necessidade de melhorias na identificação desse grupo específico.
 
 Os resultados demonstram que a Árvore de Decisão é eficaz na classificação do nível de obesidade, mas apresenta dificuldades na identificação da obesidade tipo I.
+))))))))))))))
 
-2. **Regressão Linear**
+## 2. **Regressão Linear**
 (Em construção)
 
 
