@@ -106,6 +106,9 @@ No nosso modelo, limitamos a profundidade da árvore (max_depth=10) para evitar 
 ## 2. **Regressão Linear**
 (Em construção)
 
+## 3. **Random Forest**
+(Em construção)
+
 # Avaliação dos modelos criados
 
 ## Métricas utilizadas
@@ -123,9 +126,11 @@ Para avaliar o desempenho do modelo, utilizamos as seguintes métricas:
 
 Sendo assim, o **F1-score** se mostrou uma métrica mais adequada para avaliar o desempenho desse modelo, pois leva em consideração tanto a precisão quanto o recall, buscando um equilíbrio entre a capacidade do modelo de identificar corretamente os diferentes níveis de obesidade e de encontrar todos os casos de cada nível.
 
-
 ## 2. **Regressão Linear**
 (em construção)
+
+## 3. **Random Forest**
+(Em construção)
 
 ## Discussão dos resultados obtidos
 
@@ -143,6 +148,8 @@ Sendo assim, o **F1-score** se mostrou uma métrica mais adequada para avaliar o
 ## 2. **Regressão Linear**
 (Em construção)
 
+## 3. **Random Forest**
+(Em construção)
 
 # Pipeline de pesquisa e análise de dados
 
