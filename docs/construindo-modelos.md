@@ -129,15 +129,16 @@ Sendo assim, o **F1-score** se mostrou uma métrica mais adequada para avaliar o
 
 ## Discussão dos resultados obtidos
 
-REMOVER APÓS ADICIONAR OS MODELOS: <<<<< ---------- Nesta seção, discuta os resultados obtidos pelos modelos construídos, no contexto prático em que os dados se inserem, promovendo uma compreensão abrangente e aprofundada da qualidade de cada um deles. Lembre-se de relacionar os resultados obtidos ao problema identificado, a questão de pesquisa levantada e estabelecendo relação com os objetivos previamente propostos.------------- >>>>
-
 ## 1. **Árvore de Decisão**
 
-((((((((((((((
-Nosso modelo de Árvore de Decisão alcançou uma acurácia de 78,5% na validação e 83,6% no teste. O desempenho foi bom na maioria das classes, exceto na classe 1 (obesidade tipo I), indicando a necessidade de melhorias na identificação desse grupo específico.
+**Desempenho Geral**: O modelo de Árvore de Decisão com ```max_depth = 10``` apresentou um desempenho notável na previsão do nível de obesidade com uma acurácia de 89,91% nos dados de validação e 92,11% nos dados de teste, superando os resultados anteriores obtidos com ```max_depth = 5``` (validação 79,18% e teste 85,17%).
 
-Os resultados demonstram que a Árvore de Decisão é eficaz na classificação do nível de obesidade, mas apresenta dificuldades na identificação da obesidade tipo I.
-))))))))))))))
+**Desempenho por Classe**:
+- **Classes com excelente desempenho**: Todas as classes, exceto "Overweight_Level_I", apresentaram valores de F1-score acima de 0,89 em ambos os conjuntos de dados. Isso demonstra que o modelo é altamente eficaz na identificação de indivíduos em todas as categorias de obesidade, com um bom equilíbrio entre precisão e recall.
+
+- **Classe com bom desempenho**: A classe "Overweight_Level_I" também apresentou um bom desempenho, com F1-score de 0.85 na validação e 0.79 no teste. Embora seja ligeiramente inferior às outras classes, o modelo ainda consegue identificar a maioria dos indivíduos nessa categoria com boa precisão.
+
+**Implicações para a Questão de Pesquisa**: Os resultados obtidos com a Árvore de Decisão com ```max_depth = 10``` reforçam a ideia de que é possível prever o nível de obesidade de um indivíduo com alta precisão, considerando os fatores presentes no dataset. Iniciamos os testes com um ```max_depth = 5``` e verificamos que o aumento na profundidade da árvore para ```max_depth = 10``` permitiu ao modelo capturar nuances nos dados que não eram evidentes com uma profundidade menor, melhorando significativamente a capacidade de generalização e a performance em todas as classes.
 
 ## 2. **Regressão Linear**
 (Em construção)
