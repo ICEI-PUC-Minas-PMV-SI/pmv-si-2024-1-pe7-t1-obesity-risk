@@ -67,50 +67,40 @@ Os dados foram divididos em conjuntos de treinamento (70%), validação (15%) e 
 
 # Descrição dos modelos
 
-REMOVER APÓS ADICIONAR OS MODELOS: 
+REMOVER APÓS ADICIONAR OS MODELOS: <<< --------- Nesta seção, conhecendo os dados e de posse dos dados preparados, é hora de descrever os algoritmos de aprendizado de máquina selecionados para a construção dos modelos propostos. Inclua informações abrangentes sobre cada algoritmo implementado, aborde conceitos fundamentais, princípios de funcionamento, vantagens/limitações e justifique a escolha de cada um dos algoritmos. Explore aspectos específicos, como o ajuste dos parâmetros livres de cada algoritmo. Lembre-se de experimentar parâmetros diferentes e principalmente, de justificar as escolhas realizadas. GRAVAR O VIDEO!!! Como parte da comprovação de construção dos modelos, um vídeo de demonstração com todas as etapas de pré-processamento e de execução dos modelos deverá ser entregue. Este vídeo poderá ser do tipo _screencast_ e é imprescindível a narração contemplando a demonstração de todas as etapas realizadas. ----------- >>>
 
-<<< --------- Nesta seção, conhecendo os dados e de posse dos dados preparados, é hora de descrever os algoritmos de aprendizado de máquina selecionados para a construção dos modelos propostos. Inclua informações abrangentes sobre cada algoritmo implementado, aborde conceitos fundamentais, princípios de funcionamento, vantagens/limitações e justifique a escolha de cada um dos algoritmos. Explore aspectos específicos, como o ajuste dos parâmetros livres de cada algoritmo. Lembre-se de experimentar parâmetros diferentes e principalmente, de justificar as escolhas realizadas. GRAVAR O VIDEO!!! Como parte da comprovação de construção dos modelos, um vídeo de demonstração com todas as etapas de pré-processamento e de execução dos modelos deverá ser entregue. Este vídeo poderá ser do tipo _screencast_ e é imprescindível a narração contemplando a demonstração de todas as etapas realizadas. 
------------ >>>
-
-1. Árvore de Decisão
+1. **Árvore de Decisão**
 
 A Árvore de Decisão é um algoritmo que classifica dados como um fluxograma, dividindo-os em grupos menores com base em perguntas sobre seus atributos. Essa estrutura em árvore facilita a interpretação do modelo, revelando quais características são mais importantes para determinar o nível de obesidade.
 
 No nosso modelo, limitamos a profundidade da árvore (max_depth=5) para evitar overfitting e usamos o índice de Gini como critério de divisão. O índice de Gini mede a impureza de um nó, ou seja, o quão misturadas estão as classes. O algoritmo busca a divisão que maximiza a redução da impureza, resultando em subconjuntos mais puros (com exemplos de classes mais semelhantes).
 
-3. Regressão Linear
+2. **Regressão Linear**
 (Em construção)
 
 # Avaliação dos modelos criados
 
 ## Métricas utilizadas
 
-REMOVER APÓS ADICIONAR OS MODELOS: 
+REMOVER APÓS ADICIONAR OS MODELOS: <<< --------- Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos deverão ser apresentadas (p. ex.: acurácia, precisão, recall, F1-Score, MSE etc.). A escolha de cada métrica deverá ser justificada, pois esta escolha é essencial para avaliar de forma mais assertiva a qualidade do modelo construído.------------ >>>
 
-<<< ---------
-Nesta seção, as métricas utilizadas para avaliar os modelos desenvolvidos deverão ser apresentadas (p. ex.: acurácia, precisão, recall, F1-Score, MSE etc.). A escolha de cada métrica deverá ser justificada, pois esta escolha é essencial para avaliar de forma mais assertiva a qualidade do modelo construído. 
------------- >>>
+1. **Árvore de Decisão**
 
-* Acurácia: Proporção de exemplos classificados corretamente.
-* Relatório de Classificação: Inclui precisão, recall e F1-score para cada classe, além das médias macro e ponderada.
 
-A acurácia fornece uma visão geral do desempenho do modelo, enquanto o relatório de classificação detalha o desempenho em cada classe, incluindo métricas como precisão (proporção de verdadeiros positivos entre os classificados como positivos), recall (proporção de verdadeiros positivos entre os positivos reais) e F1-score (média harmônica entre precisão e recall).
+2. **Regressão Linear**
+(em construção)
 
 ## Discussão dos resultados obtidos
 
-REMOVER APÓS ADICIONAR OS MODELOS: 
+REMOVER APÓS ADICIONAR OS MODELOS: <<<<< ---------- Nesta seção, discuta os resultados obtidos pelos modelos construídos, no contexto prático em que os dados se inserem, promovendo uma compreensão abrangente e aprofundada da qualidade de cada um deles. Lembre-se de relacionar os resultados obtidos ao problema identificado, a questão de pesquisa levantada e estabelecendo relação com os objetivos previamente propostos.------------- >>>>
 
-<<<<< ----------
-Nesta seção, discuta os resultados obtidos pelos modelos construídos, no contexto prático em que os dados se inserem, promovendo uma compreensão abrangente e aprofundada da qualidade de cada um deles. Lembre-se de relacionar os resultados obtidos ao problema identificado, a questão de pesquisa levantada e estabelecendo relação com os objetivos previamente propostos. 
-------------- >>>>
-
-1. Árvore de Decisão
+1. **Árvore de Decisão**
 
 Nosso modelo de Árvore de Decisão alcançou uma acurácia de 78,5% na validação e 83,6% no teste. O desempenho foi bom na maioria das classes, exceto na classe 1 (obesidade tipo I), indicando a necessidade de melhorias na identificação desse grupo específico.
 
 Os resultados demonstram que a Árvore de Decisão é eficaz na classificação do nível de obesidade, mas apresenta dificuldades na identificação da obesidade tipo I.
 
-2. Regressão Linear
+2. **Regressão Linear**
 (Em construção)
 
 
