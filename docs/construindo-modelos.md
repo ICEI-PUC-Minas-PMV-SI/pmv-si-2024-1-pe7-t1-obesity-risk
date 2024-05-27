@@ -158,7 +158,7 @@ As bibliotecas Python utilizadas neste projeto foram:
 
 O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 
-1. **Coleta de dados**: O conjunto de dados "Obesity or CVD risk (Classify/Regressor/Cluster)" no formato ```csv foi obtido do Kaggle.
+1. **Coleta de dados**: O conjunto de dados "Obesity or CVD risk (Classify/Regressor/Cluster)" no formato ```csv``` foi obtido do Kaggle.
 2. **Limpeza e pré-processamento**: Os dados foram limpos, outliers foram tratados e transformações foram aplicadas para preparar os dados para a modelagem.
 3. **Engenharia de recursos**: Novos recursos foram criados (cálculo do IMC) para avaliar a capacidade preditiva dos modelos.
 4. **Divisão dos dados**: Os dados foram divididos em conjuntos de treinamento, validação e teste.
