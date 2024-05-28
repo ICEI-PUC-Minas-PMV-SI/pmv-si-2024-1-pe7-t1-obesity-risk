@@ -1,6 +1,6 @@
 # Pergunta orientada a dados
 
-Quais fatores (hábitos alimentares, tabagismo, condição física, etc.) são mais relevantes para prever o nível de obesidade e qual modelo de aprendizado de máquina oferece a melhor performance na previsão, considerando métricas como acurácia, precisão, recall e F1-score?
+Qual modelo de aprendizado de máquina oferece a melhor performance na previsão, considerando métricas como acurácia, precisão, recall e F1-score?
 
 A pergunta de pesquisa é mais ampla e abrangente, estabelecendo o tema geral da investigação. Ela não se limita aos dados em si, mas sim ao problema que se busca resolver. A pergunta orientada a dados, por outro lado, é mais específica e focada na análise dos dados. Ela busca identificar os padrões e relações presentes nos dados que podem ajudar a responder à pergunta de pesquisa.
 
