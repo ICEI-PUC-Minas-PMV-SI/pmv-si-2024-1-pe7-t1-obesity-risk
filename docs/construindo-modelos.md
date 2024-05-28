@@ -137,7 +137,13 @@ Sendo assim, o **F1-score** se mostrou uma métrica mais adequada para avaliar o
 (em construção)
 
 ## 3. **Random Forest**
-(Em construção)
+Foram utilizadas aqui as mesmas métricas empregadas para o modelo Árvore de Decisão, além das métricas a seguir:
+
+- **Support**: O número de instâncias verdadeiras de cada classe no conjunto de teste.
+- **Macro Avg (Média Macro)**: A média macro calcula a média das métricas sem considerar o suporte (número de instâncias em cada classe). Isso significa que cada classe contribui igualmente para a média final, independentemente do número de instâncias.
+- **Weighted Avg (Média Ponderada)**: A média ponderada calcula a média das métricas considerando o suporte, ou seja, cada classe contribui para a média final proporcionalmente ao seu número de instâncias.
+
+As métricas em questão foram calculadas a partir de uma **Matriz de Confusão**, também conhecida como tabela de contingência, e que permite a visualização do desempenho de um modelo de classificação, comparando as previsões do modelo com os valores reais dos dados.
 
 ## Discussão dos resultados obtidos
 
