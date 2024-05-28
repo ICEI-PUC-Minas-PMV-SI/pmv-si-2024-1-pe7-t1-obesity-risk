@@ -162,7 +162,9 @@ As métricas em questão foram calculadas a partir de uma **Matriz de Confusão*
 (Em construção)
 
 ## 3. **Random Forest**
-(Em construção)
+
+O modelo apresenta um desempenho muito bom no conjunto de teste, com uma alta acurácia de 0.95, para ```max_depth = 10```.  A maioria das classes tem precisão, revocação e F1-Score elevadas, indicando que o modelo está bem ajustado e generaliza bem para novos dados. A única classe com desempenho ligeiramente inferior é a Classe 1, "Overweight_Level_I" , mas ainda assim, suas métricas são bastante aceitáveis. No geral, o modelo parece bem equilibrado e eficaz na classificação das instâncias.
+
 
 # Pipeline de pesquisa e análise de dados
 
