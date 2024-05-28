@@ -136,7 +136,7 @@ Sendo assim, o **F1-score** se mostrou uma métrica mais adequada para avaliar o
 
 ## 1. **Árvore de Decisão**
 
-**Desempenho Geral**: O modelo de Árvore de Decisão com ```max_depth = 10``` apresentou um desempenho notável na previsão do nível de obesidade com uma acurácia de 89,91% nos dados de validação e 92,11% nos dados de teste, superando os resultados anteriores obtidos com ```max_depth = 5``` (validação 79,18% e teste 85,17%).
+**Desempenho Geral**: O modelo de Árvore de Decisão com ```max_depth = 10``` apresentou um desempenho notável na previsão do nível de obesidade com uma acurácia de 89,91% nos dados de validação e 92,11% nos dados de teste, superando os resultados anteriores obtidos com ```max_depth = 5``` (validação 79,18% e teste 85,17%). Observando a matriz de confusão, observamos que a árvore com ```max_depth = 10``` teve um melhor desempenho que a árvore com ```max_depth = 5``` para diferenciar "Overweight_Level_I" de "Overweight_Level_II".
 
 **Desempenho por Classe**:
 - **Classes com excelente desempenho**: Todas as classes, exceto "Overweight_Level_I", apresentaram valores de F1-score acima de 0,80 em ambos os conjuntos de dados. Isso demonstra que o modelo é altamente eficaz na identificação de indivíduos em todas as categorias de obesidade, com um bom equilíbrio entre precisão e recall.
