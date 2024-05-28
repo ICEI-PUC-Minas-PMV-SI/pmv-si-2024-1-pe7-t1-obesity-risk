@@ -169,17 +169,17 @@ O modelo apresenta um desempenho muito bom no conjunto de teste, com uma alta ac
 
 A matriz de confusão fornecida é resultado da avaliação de um modelo de classificação para sete classes diferentes. 
 
-Classe 0 (Insufficient_Weight): O modelo classificou corretamente 54 instâncias da classe 0. No entanto, errou duas instâncias da classe 1 como classe 0 (falsos negativos). Para corrigir esse erro, o modelo pode precisar de ajustes para reduzir a confusão entre as classes 0 e 1, possivelmente através de uma otimização dos parâmetros do modelo ou de uma engenharia de características mais eficaz.
+Classe 0 (Insufficient_Weight): O modelo classificou corretamente 54 instâncias da classe 0. No entanto, errou duas instâncias da classe 1 como classe 0 (falsos negativos). 
 
-Classe 1 (Normal_Weight): O modelo classificou corretamente 57 instâncias da classe 1. No entanto, errou uma instância da classe 0 como classe 1 (falso positivo), três instâncias da classe 5 como classe 1 (falsos negativos) e uma instância da classe 6 como classe 1 (falso negativo). Para corrigir esses erros, o modelo pode se beneficiar de um treinamento mais robusto com uma maior diversidade de exemplos das classes mal classificadas, bem como uma seleção mais adequada de características.
+Classe 1 (Normal_Weight): O modelo classificou corretamente 57 instâncias da classe 1. No entanto, errou uma instância da classe 0 como classe 1 (falso positivo), três instâncias da classe 5 como classe 1 (falsos negativos) e uma instância da classe 6 como classe 1 (falso negativo). 
 
-Classe 2 (Obesity_Type_I): O modelo classificou corretamente 74 instâncias da classe 2. No entanto, errou duas instâncias da classe 3 como classe 2 (falsos negativos) e duas instâncias da classe 6 como classe 2 (falsos positivos). Para corrigir esses erros, o modelo pode se beneficiar de um treinamento mais equilibrado e uma seleção mais cuidadosa de características discriminativas.
+Classe 2 (Obesity_Type_I): O modelo classificou corretamente 74 instâncias da classe 2. No entanto, errou duas instâncias da classe 3 como classe 2 (falsos negativos) e duas instâncias da classe 6 como classe 2 (falsos positivos). 
 
-Classe 3 (Obesity_Type_II): O modelo classificou corretamente 57 instâncias da classe 3. No entanto, errou uma instância da classe 2 como classe 3 (falso negativo). Para corrigir esse erro, o modelo pode se beneficiar de uma revisão das características utilizadas na classificação e uma análise mais detalhada das instâncias mal classificadas.
+Classe 3 (Obesity_Type_II): O modelo classificou corretamente 57 instâncias da classe 3. No entanto, errou uma instância da classe 2 como classe 3 (falso negativo). 
 
 Classe 4 (Obesity_Type_III): O modelo classificou corretamente 63 instâncias da classe 4 e não houve erros em outras classes. Não é necessário fazer correções para esta classe, pois o modelo obteve um desempenho perfeito.
 
-Classe 5 (Overweight_Level_I): O modelo classificou corretamente 49 instâncias da classe 5. No entanto, errou seis instâncias da classe 1 como classe 5 (falsos positivos) e uma instância da classe 6 como classe 5 (falso negativo). Para corrigir esses erros, o modelo pode se beneficiar de uma revisão das características e possivelmente uma seleção mais cuidadosa das instâncias de treinamento.
+Classe 5 (Overweight_Level_I): O modelo classificou corretamente 49 instâncias da classe 5. No entanto, errou seis instâncias da classe 1 como classe 5 (falsos positivos) e uma instância da classe 6 como classe 5 (falso negativo). 
 
 Classe 6 (Overweight_Level_II): O modelo classificou corretamente 48 instâncias da classe 6 e não houve erros em outras classes. Não é necessário fazer correções para esta classe, pois o modelo obteve um desempenho perfeito.
 
