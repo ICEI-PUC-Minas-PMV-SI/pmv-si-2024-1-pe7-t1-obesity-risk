@@ -210,6 +210,7 @@ O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 
 # Códigos
 - Árvore de Decisão: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/b6fb6cc676026948cee326b888d306e31315fbd4/src/obesity_dataset_decision_tree_classifier_max_depth_10.py
+- Random Forest: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/src/random_forest.py
 
 # Vídeos demonstrando os algoritmos
 - Árvore de Decisão: https://youtu.be/js_gml6jU7g
