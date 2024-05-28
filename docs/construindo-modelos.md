@@ -173,5 +173,7 @@ O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 6. **Avaliação**: O desempenho dos modelos foi avaliado usando métricas como acurácia, precisão, recall e F1-score.
 7. **Interpretação**: Os resultados foram interpretados para entender os pontos fortes e fracos dos modelos e identificar oportunidades de melhoria.
 
+(((( INCLUIR O PIPELINE DE EXECUÇÃO VISUAL ))))
+
 # Referências Bibliográficas
 ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). A healthy lifestyle - WHO recommendations. [S.l.: s.n.], 2020. Disponível em: https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations. Acesso em: 12 abr. 2024.
