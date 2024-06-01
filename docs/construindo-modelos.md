@@ -291,6 +291,7 @@ O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 
 # Vídeos demonstrando os algoritmos
 - Árvore de Decisão: https://youtu.be/js_gml6jU7g
+- Random Forest: https://www.youtube.com/watch?v=80l1Im9ZdfI
 
 # Referências Bibliográficas
 ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). A healthy lifestyle - WHO recommendations. [S.l.: s.n.], 2020. Disponível em: https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations. Acesso em: 12 abr. 2024.
