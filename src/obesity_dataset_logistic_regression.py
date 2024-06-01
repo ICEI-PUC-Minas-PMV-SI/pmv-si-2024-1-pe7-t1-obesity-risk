@@ -141,6 +141,4 @@ Este projeto demonstrou a aplicação da Regressão Logística para prever os n�
 - MINISTÉRIO DA SAÚDE. Vigitel 2022: Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico. Brasília: Ministério da Saúde, 2023.
 - PALECHOR, F. M.; DE LA HOZ MANOTAS, A. Obesity or CVD risk (Classify/Regressor/Cluster) [Conjunto de dados]. Kaggle, 2023. Disponível em: https://doi.org/10.34740/KAGGLE/DSV/7009925.
 
----
 
-Este documento serve como uma guia completo para a implementação e análise do modelo de Regressão Logística aplicado ao conjunto de dados de risco de obesidade.
