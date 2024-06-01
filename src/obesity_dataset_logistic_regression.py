@@ -1,31 +1,4 @@
-# Análise de Risco de Obesidade Usando Regressão Logística
 
-Este projeto utiliza a Regressão Logística para prever o nível de obesidade de um indivíduo com base em diversos fatores como hábitos alimentares, tabagismo e condição física. A análise é conduzida utilizando Python e várias bibliotecas de aprendizado de máquina.
-
-## Introdução
-
-A obesidade é um problema de saúde pública global que afeta milhões de pessoas em todo o mundo. Este projeto visa desenvolver um modelo preditivo que possa ajudar a identificar os níveis de obesidade com alta precisão.
-
-## Dataset
-
-O conjunto de dados utilizado contém estimativas dos níveis de obesidade em pessoas dos países do México, Peru e Colômbia. As variáveis incluem idade, altura, peso, histórico familiar de sobrepeso, hábitos alimentares, entre outros.
-
-## Objetivos
-
-1. Classificar os níveis de obesidade.
-2. Identificar fatores de risco.
-3. Prever mudanças nos níveis de obesidade.
-4. Segmentar dados para intervenções personalizadas.
-
-## Dependências
-
-- pandas
-- scikit-learn
-- imblearn
-
-## Código
-
-```python
 # -*- coding: utf-8 -*-
 """obesity_dataset_logistic_regression.ipynb
 
@@ -111,34 +84,5 @@ print("\nTeste - Classification Report:")
 print(classification_report(y_test, y_pred))
 ```
 
-## Etapas de Pré-processamento
-
-1. **Tratar valores ausentes**: Utilizamos `SimpleImputer` para substituir valores ausentes pela moda das colunas.
-2. **Codificar variáveis categóricas**: Usamos `LabelEncoder` e `OneHotEncoder` para transformar variáveis categóricas em numéricas.
-3. **Padronizar os dados**: Aplicamos `StandardScaler` para normalizar os dados.
-4. **Divisão dos dados**: Separamos os dados em conjuntos de treino, validação e teste.
-5. **Balanceamento de classes**: Utilizamos `SMOTE` para lidar com o desequilíbrio das classes.
-
-## Treinamento do Modelo
-
-O modelo de regressão logística foi treinado nos dados de treinamento balanceados. Em seguida, foi avaliado usando os conjuntos de dados de validação e teste, apresentando os seguintes resultados:
-
-- **Validação - Accuracy**: Indica a precisão do modelo nos dados de validação.
-- **Teste - Accuracy**: Indica a precisão do modelo nos dados de teste.
-- **Classification Report**: Apresenta métricas detalhadas de desempenho, incluindo precisão, recall e F1-score.
-
-## Resultados e Discussão
-
-Os resultados da avaliação do modelo são apresentados em termos de acurácia, precisão, recall e F1-score. Estes indicadores ajudam a entender o desempenho do modelo em diferentes classes de obesidade.
-
-## Conclusão
-
-Este projeto demonstrou a aplicação da Regressão Logística para prever os níveis de obesidade com base em múltiplos fatores. As técnicas de pré-processamento e balanceamento de classes contribuíram para a melhoria da performance do modelo, tornando-o uma ferramenta útil para intervenções em saúde pública.
-
-## Referências
-
-- ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). Obesidade e sobrepeso. [OMS, 2023](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight).
-- MINISTÉRIO DA SAÚDE. Vigitel 2022: Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico. Brasília: Ministério da Saúde, 2023.
-- PALECHOR, F. M.; DE LA HOZ MANOTAS, A. Obesity or CVD risk (Classify/Regressor/Cluster) [Conjunto de dados]. Kaggle, 2023. Disponível em: https://doi.org/10.34740/KAGGLE/DSV/7009925.
 
 
