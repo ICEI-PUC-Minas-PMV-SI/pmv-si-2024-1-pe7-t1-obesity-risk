@@ -231,6 +231,27 @@ Classe 6 (Overweight_Level_II): O modelo classificou corretamente 48 instâncias
 Treinar um modelo Random Forest com várias profundidades máximas (max depth) é uma prática comum para encontrar o melhor ajuste para o conjunto de dados. Isso pode ser feito utilizando a técnica de validação cruzada para avaliar o desempenho do modelo em diferentes valores de profundidade máxima.
 Através do gráfico abaixo, é possível perceber que, a partir da profundidade 10 adiante, a acurácia do modelo se estabiliza acima de 90%. Já os testes com profundidade inferior a 10 mostram uma queda acentuada na acurácia. 
 
+**Curva de Aprendizado**
+
+A curva de aprendizado é uma ferramenta gráfica que ajuda a entender a performance de um modelo de aprendizado de máquina à medida que a quantidade de dados de treinamento aumenta. Ela pode fornecer dados importantes sobre se o modelo está sofrendo de overfitting ou underfitting e ajudar a identificar oportunidades para melhorar o desempenho do modelo. Em geral, se as curvas de treinamento e validação/teste convergem, isso é indicativo de uma performance aceitável, na qual o modelo está se generalizando bem. 
+
+**Resultados com amostras de teste variáveis**
+
+Os resultados indicam a acurácia do modelo Random Forest em diferentes conjuntos de teste, onde o tamanho do conjunto de teste é variado. 
+
+- Acurácia do modelo Random Forest com conjunto de teste de 10.0%: 0.9387
+
+Isso indica que, quando 10% dos dados foram retidos como conjunto de teste, o modelo classificou corretamente cerca de 93.87% das amostras de teste.
+
+- Acurácia do modelo Random Forest com conjunto de teste de 30.0%: 0.9322
+
+Isso indica que, quando 30% dos dados foram retidos como conjunto de teste, o modelo classificou corretamente cerca de 93.22% das amostras de teste.
+
+- Acurácia do modelo Random Forest com conjunto de teste de 50.0%: 0.9347
+
+Isso indica que, quando 50% dos dados foram retidos como conjunto de teste, o modelo classificou corretamente cerca de 93.47% das amostras de teste.
+
+Esses resultados sugerem que a acurácia do modelo é consistente em diferentes tamanhos de conjunto de teste, o que é um bom sinal de que o modelo está generalizando bem para diferentes amostras de teste. No entanto, é importante lembrar que a acurácia por si só pode não ser suficiente para avaliar completamente a performance de um modelo e outras métricas também foram consideradas.
 
 # Pipeline de pesquisa e análise de dados
 
