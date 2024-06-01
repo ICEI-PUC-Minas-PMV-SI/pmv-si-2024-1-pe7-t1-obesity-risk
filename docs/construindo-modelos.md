@@ -255,7 +255,9 @@ Isso indica que, quando 30% dos dados foram retidos como conjunto de teste, o mo
 
 Isso indica que, quando 50% dos dados foram retidos como conjunto de teste, o modelo classificou corretamente cerca de 93.47% das amostras de teste.
 
-Esses resultados sugerem que a acurácia do modelo é consistente em diferentes tamanhos de conjunto de teste, o que é um bom sinal de que o modelo está generalizando bem para diferentes amostras de teste. No entanto, é importante lembrar que a acurácia por si só pode não ser suficiente para avaliar completamente a performance de um modelo e outras métricas também foram consideradas.
+Esses resultados sugerem que a acurácia do modelo é consistente em diferentes tamanhos de conjunto de teste, o que é um bom sinal de que o modelo está generalizando bem para diferentes amostras de teste. No entanto, é importante lembrar que a acurácia por si só pode não ser suficiente para avaliar completamente a performance de um modelo. Desse modo, outras métricas foram consideradas, conforme imagem abaixo, e mais uma vez a consistência do modelo foi demonstrada.
+
+Portanto, a partir dos testes realizados, é possível concluir que o modelo de classificação Random Forest funciona bem com o dataset utilizado.
 
 ![image 03](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/src/Varia%C3%A7%C3%A3o%20de%20testes.jpg)
 
