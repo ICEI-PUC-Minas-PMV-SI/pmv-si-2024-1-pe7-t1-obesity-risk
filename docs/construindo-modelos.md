@@ -231,13 +231,13 @@ Classe 6 (Overweight_Level_II): O modelo classificou corretamente 48 instâncias
 Treinar um modelo Random Forest com várias profundidades máximas (max depth) é uma prática comum para encontrar o melhor ajuste para o conjunto de dados. Isso pode ser feito utilizando a técnica de validação cruzada para avaliar o desempenho do modelo em diferentes valores de profundidade máxima.
 Através do gráfico abaixo, é possível perceber que, a partir da profundidade 10 adiante, a acurácia do modelo se estabiliza acima de 90%. Já os testes com profundidade inferior a 10 mostram uma queda acentuada na acurácia.
 
-![image 01]()
+![image 01](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/src/Max%20depth.jpg)
 
 **Curva de Aprendizado**
 
 A curva de aprendizado é uma ferramenta gráfica que ajuda a entender a performance de um modelo de aprendizado de máquina à medida que a quantidade de dados de treinamento aumenta. Ela pode fornecer dados importantes sobre se o modelo está sofrendo de overfitting ou underfitting e ajudar a identificar oportunidades para melhorar o desempenho do modelo. Em geral, se as curvas de treinamento e validação/teste convergem, isso é indicativo de uma performance aceitável, na qual o modelo está se generalizando bem. A curva de aprendizado mostrada abaixo demontra convergência entre as curvas.
 
-![image 01]()
+![image 02](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/src/Curva%20de%20Aprendizado.jpg)
 
 
 
