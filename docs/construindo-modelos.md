@@ -239,8 +239,6 @@ A curva de aprendizado é uma ferramenta gráfica que ajuda a entender a perform
 
 ![image 02](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/src/Curva%20de%20Aprendizado.jpg)
 
-
-
 **Resultados com amostras de teste variáveis**
 
 Os resultados indicam a acurácia do modelo Random Forest em diferentes conjuntos de teste, onde o tamanho do conjunto de teste é variado. 
@@ -258,6 +256,8 @@ Isso indica que, quando 30% dos dados foram retidos como conjunto de teste, o mo
 Isso indica que, quando 50% dos dados foram retidos como conjunto de teste, o modelo classificou corretamente cerca de 93.47% das amostras de teste.
 
 Esses resultados sugerem que a acurácia do modelo é consistente em diferentes tamanhos de conjunto de teste, o que é um bom sinal de que o modelo está generalizando bem para diferentes amostras de teste. No entanto, é importante lembrar que a acurácia por si só pode não ser suficiente para avaliar completamente a performance de um modelo e outras métricas também foram consideradas.
+
+![image 03](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/src/Varia%C3%A7%C3%A3o%20de%20testes.jpg)
 
 # Pipeline de pesquisa e análise de dados
 
