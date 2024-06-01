@@ -1,10 +1,122 @@
 # Implantação da solução
 
-Nesta seção, a implantação da solução proposta em nuvem deverá ser realizada e detalhadamente descrita. Além disso, deverá ser descrito também, o planejamento da capacidade operacional através da modelagem matemática e da simulação do sistema computacional.
+## Introdução
 
-Após a implantação, realize testes que mostrem o correto funcionamento da aplicação.
+Nesta etapa, a implantação da solução proposta em nuvem será realizada, com base em um planejamento prévio para modelar a capacidade operacional e simular o sistema computacional. O objetivo é garantir que o sistema possa processar grandes quantidades de dados em servidores remotos, hospedados em plataformas de computação em nuvem.
 
-# Apresentação da solução
+## Critérios para Implantação
 
-Nesta seção, um vídeo de, no máximo, 5 minutos onde deverá ser descrito o escopo todo do projeto, um resumo do trabalho desenvolvido, incluindo a comprovação de que a implantação foi realizada e, as conclusões alcançadas.
+### 1. Avaliação de Provedores de Serviço em Nuvem
+
+Os principais provedores de serviços em nuvem (AWS, Azure, Google Cloud) foram avaliados com base nas necessidades do projeto. A AWS foi selecionada devido à sua ampla gama de serviços gerenciados, suporte a modelos de aprendizado de máquina e escalabilidade robusta.
+
+### 2. Configuração do Ambiente na AWS
+
+#### Passos:
+
+1. **Configuração do DataLake**:
+    - O AWS Lake Formation será utilizado para configurar e gerenciar o DataLake, armazenando todos os dados brutos, transformados e modelos.
+2. **Configuração de Redes e Armazenamento**:
+    - Um VPC será criado para isolar o ambiente de rede.
+    - Sub-redes públicas e privadas serão configuradas conforme necessário.
+    - O Amazon S3 será utilizado para armazenamento dos dados e modelos.
+3. **Configuração de Máquinas Virtuais (EC2)**:
+    - Instâncias EC2 serão configuradas para treinamento e implantação do modelo.
+    - Instâncias otimizadas para computação (por exemplo, `c5.large`) serão utilizadas.
+
+### 3. Implantação do Modelo
+
+#### Passos:
+
+1. **Amazon S3**: Os dados de entrada e o modelo treinado serão armazenados. ( Exemplo de como os dados serão armazenados, nomes ilustrativos )
+    ```bash
+    aws s3 mb s3://obesity-dataset-bucket
+    aws s3 cp ObesityDataSet.csv s3://obesity-dataset-bucket/
+    aws s3 cp model.joblib s3://obesity-dataset-bucket/
+    ```
+
+2. **Amazon SageMaker**: O treinamento e a implantação do modelo serão realizados.
+    - Uma instância de notebook no SageMaker será criada para treinar o modelo.
+    - Após o treinamento, o modelo será implantado como um endpoint no SageMaker.
+
+3. **AWS Lambda e API Gateway**:
+    - Uma função Lambda será criada para invocar o endpoint do SageMaker.
+    - O API Gateway será configurado para expor a função Lambda como uma API RESTful.
+
+    ```python
+    import boto3
+    import json
+
+    def lambda_handler(event, context):
+        sagemaker = boto3.client('sagemaker-runtime')
+        input_data = json.loads(event['body'])
+        
+        response = sagemaker.invoke_endpoint(
+            EndpointName='nome-do-endpoint',
+            Body=json.dumps(input_data),
+            ContentType='application/json'
+        )
+        
+        result = json.loads(response['Body'].read().decode())
+        
+        return {
+            'statusCode': 200,
+            'body': json.dumps(result)
+        }
+    ```
+
+4. **Elastic Beanstalk**:
+    - O AWS Elastic Beanstalk será usado para implantar e gerenciar a aplicação web que interage com a API.
+    - O Beanstalk será configurado para garantir a escalabilidade automática e a alta disponibilidade.
+
+### 4. Planejamento da Capacidade Operacional
+
+#### Modelagem Matemática
+
+A capacidade necessária será calculada com base no número esperado de requisições por segundo, o tempo médio de processamento de cada requisição e a capacidade das instâncias do SageMaker.
+
+#### Simulação do Sistema Computacional
+
+Ferramentas de simulação serão utilizadas para testar a capacidade do sistema sob diferentes cargas de trabalho e ajustar os parâmetros de escalabilidade conforme necessário.
+
+### 5. Monitoramento e Ajuste
+
+#### Passos:
+
+1. **Amazon CloudWatch**: O monitoramento do desempenho do modelo será configurado.
+    - Alarmes serão configurados para detectar anomalias ou problemas de desempenho.
+    - Métricas como latência, taxa de erro e utilização de CPU/memória serão monitoradas.
+
+2. **Ajuste de Capacidade**: A capacidade do endpoint do SageMaker e das instâncias do Elastic Beanstalk será ajustada com base nos dados de monitoramento.
+    - A escalabilidade automática será configurada para ajustar o número de instâncias conforme necessário.
+
+### 6. Testes
+
+#### Testes de Funcionalidade
+
+Solicitações ao endpoint via API Gateway serão enviadas para verificar se o modelo retorna a previsão correta.
+
+```python
+import requests
+
+url = 'https://{api-id}.execute-api.{region}.amazonaws.com/{stage}/predict'
+data = {
+    # Dados de entrada para teste
+}
+
+response = requests.post(url, json=data)
+print(response.json())
+```
+
+#### Testes de Desempenho
+
+Ferramentas como Apache JMeter serão utilizadas para enviar um grande número de requisições ao endpoint e medir o desempenho.
+
+### Documentação do Processo
+
+1. **Configuração da AWS**: Todas as configurações específicas da nuvem serão documentadas.
+2. **Etapas de Implantação**: Todas as etapas de implantação do modelo e configuração dos serviços serão detalhadas.
+3. **Manutenção e Monitoramento**: As etapas de monitoramento e ajustes necessários para garantir o desempenho contínuo da aplicação serão descritas.
+
+
 
