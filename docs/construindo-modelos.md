@@ -226,6 +226,11 @@ Classe 5 (Overweight_Level_I): O modelo classificou corretamente 49 instâncias 
 
 Classe 6 (Overweight_Level_II): O modelo classificou corretamente 48 instâncias da classe 6 e não houve erros em outras classes. Não é necessário fazer correções para esta classe, pois o modelo obteve um desempenho perfeito.
 
+**Teste das profundidades máximas**
+
+Treinar um modelo Random Forest com várias profundidades máximas (max depth) é uma prática comum para encontrar o melhor ajuste para o conjunto de dados. Isso pode ser feito utilizando a técnica de validação cruzada para avaliar o desempenho do modelo em diferentes valores de profundidade máxima.
+Através do gráfico abaixo, é possível perceber que, a partir da profundidade 10 adiante, a acurácia do modelo se estabiliza acima de 90%. Já os testes com profundidade inferior a 10 mostram uma queda acentuada na acurácia. 
+
 
 # Pipeline de pesquisa e análise de dados
 
