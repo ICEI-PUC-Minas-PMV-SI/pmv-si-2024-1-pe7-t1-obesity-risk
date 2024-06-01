@@ -2,13 +2,13 @@
 
 ## Introdução
 
-Nesta etapa, a implantação da solução proposta em nuvem será realizada, com base em um planejamento prévio para modelar a capacidade operacional e simular o sistema computacional. O objetivo é garantir que o sistema possa processar grandes quantidades de dados em servidores remotos, hospedados em plataformas de computação em nuvem.
+Na etapa do projeto, o grande objetivo é garantir que o sistema possa processar grandes quantidades de dados em servidores ou serviços remotos. Para tal, a computação em nuvem se mostra eficiente.
 
 ## Critérios para Implantação
 
 ### 1. Avaliação de Provedores de Serviço em Nuvem
 
-Os principais provedores de serviços em nuvem (AWS, Azure, Google Cloud) foram avaliados com base nas necessidades do projeto. A AWS foi selecionada devido à sua ampla gama de serviços gerenciados, suporte a modelos de aprendizado de máquina e escalabilidade robusta.
+Os principais provedores de serviços em nuvem (AWS, Azure, Google Cloud) foram avaliados. Escolhemos a AWS pela sua ampla gama de serviços gerenciados, suporte a modelos de aprendizado de máquina e escalabilidade robusta. Nos dando a oportunidade de fazer o que é proposto de várias maneiras diferentes.
 
 ### 2. Configuração do Ambiente na AWS
 
@@ -114,9 +114,8 @@ Ferramentas como Apache JMeter serão utilizadas para enviar um grande número d
 
 ### Documentação do Processo
 
-1. **Configuração da AWS**: Todas as configurações específicas da nuvem serão documentadas.
-2. **Etapas de Implantação**: Todas as etapas de implantação do modelo e configuração dos serviços serão detalhadas.
-3. **Manutenção e Monitoramento**: As etapas de monitoramento e ajustes necessários para garantir o desempenho contínuo da aplicação serão descritas.
+1. **Configuração da AWS**: Documentar tudo assim que for realizada implementação.
+2. **Manutenção e Monitoramento**: Além do monitoramento nativo do BeanStalk e DataLake, podemos monitorar através de métricas personalizadas do CloudWatch.
 
 
 
