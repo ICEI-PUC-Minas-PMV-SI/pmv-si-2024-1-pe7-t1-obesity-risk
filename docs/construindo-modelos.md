@@ -318,7 +318,7 @@ O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 
 # Vídeos demonstrando os algoritmos
 - Árvore de Decisão: https://youtu.be/js_gml6jU7g
-- Regressão Logística: 
+- Regressão Logística: https://youtu.be/kfaZ_MK-xRQ
 - Random Forest: https://www.youtube.com/watch?v=80l1Im9ZdfI
 
 # Referências Bibliográficas
