@@ -210,7 +210,7 @@ Resultado obtido:
 - As classes 0 e 4 tiveram um desempenho excelente com altas precisões e recalls.
 - A classe 1 teve uma precisão alta, mas um recall mais baixo, o que significa que acertamos a maioria das previsões positivas, mas perdemos algumas.
 - A classe 6 teve um recall bom, mas uma precisão um pouco mais baixa, indicando alguns falsos positivos.
-- 
+  
 **Teste:**
 - Resultados semelhantes foram obtidos no teste, confirmando a consistência do modelo.
 - A classe 5 apresentou desafios com precisão e recall mais baixos, então essa área precisa de mais trabalho.
