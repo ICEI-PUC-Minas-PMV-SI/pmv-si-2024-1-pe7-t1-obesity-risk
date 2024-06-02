@@ -285,18 +285,7 @@ O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 
 ### Pipeline de Execução Visual
 
-```mermaid
-graph LR
-  A[Coleta de dados] --> B[Limpeza e pré-processamento]
-  B --> C[Engenharia de recursos]
-  C --> D[Divisão dos dados]
-  D --> E[Modelagem]
-  E --> F[Avaliação]
-  F --> G[Interpretação]
-
-  subgraph Bibliotecas
-    pandas & scikit-learn & imblearn & matplotlib & seaborn & sklearn & scikit-lib
-  end
+desenhando
 ```
 
 ### Descrição das Etapas
