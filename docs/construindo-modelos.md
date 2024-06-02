@@ -285,8 +285,7 @@ O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 
 ### Pipeline de Execução Visual
 
-desenhando
-```
+![image 04](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/src/pipeline.png)
 
 ### Descrição das Etapas
 
