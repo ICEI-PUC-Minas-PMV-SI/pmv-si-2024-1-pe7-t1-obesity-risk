@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 """obesity_dataset_logistic_regression.ipynb
 
@@ -60,7 +59,7 @@ smote = SMOTE()
 X_train_resampled, y_train_resampled = smote.fit_resample(X_train, y_train)
 
 # Inicializar o modelo de regressão logística
-model = LogisticRegression()
+model = LogisticRegression(max_iter=500)
 
 # Treinar o modelo nos dados de treinamento
 model.fit(X_train_resampled, y_train_resampled)
@@ -82,7 +81,3 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Teste - Accuracy:", accuracy)
 print("\nTeste - Classification Report:")
 print(classification_report(y_test, y_pred))
-```
-
-
-
