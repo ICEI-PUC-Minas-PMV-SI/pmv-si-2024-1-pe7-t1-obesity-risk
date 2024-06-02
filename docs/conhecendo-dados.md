@@ -30,6 +30,41 @@ Essa análise pode fornecer insights importantes para intervenções de saúde p
 A tabela de correlação, frequentemente representada na forma de um mapa de calor, é uma ferramenta poderosa na análise de dados que busca identificar e visualizar relações entre variáveis. Esta tabela apresenta os coeficientes de correlação entre todas as combinações de variáveis em um conjunto de dados, onde cada célula na tabela representa o valor da correlação entre duas variáveis. O uso da tabela de correlação e do mapa de calor permite identificar padrões e relações entre variáveis de forma rápida e eficiente. Isso é especialmente útil em conjuntos de dados com muitas variáveis, onde seria difícil examinar todas as possíveis combinações manualmente.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/assets/78939209/4a8a9d49-61fa-4341-bf41-d6fae333d7e1)
 
+## Análise das Correlações
+1. **Idade** (Age)
+- Correlação negativa fraca com TUE (Tempo usando dispositivos tecnológicos).
+- Correlação negativa fraca com FAF (Frequência de atividade física).
+- Sugere que pessoas mais jovens tendem a passar mais tempo em dispositivos tecnológicos e praticar menos atividade física.
+2. **Altura** (Height)
+- Correlação positiva forte com Peso (Weight), o que é esperado, pois indivíduos mais altos tendem a pesar mais.
+- Correlação positiva moderada com Gender (Gênero), indicando que homens tendem a ser mais altos que mulheres no conjunto de dados.
+3. **Peso** (Weight)
+- Correlação positiva moderada com NObeyesdad (Nível de obesidade), o que faz sentido, pois o peso contribui diretamente para a classificação de obesidade.
+- Correlação positiva moderada com Height (Altura), conforme mencionado anteriormente.
+- Correlação negativa fraca com FAF (Frequência de atividade física), sugerindo que pessoas que fazem menos exercícios tendem a ter maior peso.
+4. **Frequência de Consumo de Vegetais** (FCVC)
+- Correlação positiva fraca com FAVC (Consumo de alimentos com alta caloria entre as refeições).
+- Isso pode indicar que pessoas que consomem muitos vegetais também consomem alimentos de alta caloria entre as refeições, possivelmente tentando compensar uma dieta desequilibrada.
+5. **Consumo de Água Diário** (CH2O)
+- Correlação positiva fraca com FAF (Frequência de atividade física).
+- Isso sugere que pessoas que praticam mais atividade física tendem a consumir mais água, o que é esperado.
+6. **Histórico Familiar de Sobrepeso** (family_history_with_overweight)
+- Correlação positiva fraca com NObeyesdad (Nível de obesidade).
+- Indica que a presença de histórico familiar de sobrepeso está associada a níveis mais altos de obesidade.
+7. **Tabagismo** (Smoke)
+- Correlação negativa fraca com CH2O (Consumo de água diário).
+- Isso pode indicar que pessoas que fumam tendem a consumir menos água.
+
+### Interpretações e Insights
+- **Estilos de Vida e Hábitos**: A correlação entre idade e tempo em dispositivos tecnológicos (TUE) sugere mudanças nos hábitos de estilo de vida ao longo do tempo. Jovens passam mais tempo em dispositivos, o que pode ter implicações para a saúde mental e física.
+
+- **Atividade Física e Saúde**: A correlação entre peso (Weight) e frequência de atividade física (FAF) reforça a importância da atividade física na manutenção de um peso saudável. Estratégias para aumentar a atividade física podem ser eficazes no controle do peso.
+
+- **Influências Genéticas e Ambientais**: O histórico familiar de sobrepeso (family_history_with_overweight) correlacionado com o nível de obesidade (NObeyesdad) sugere uma influência genética ou ambiental significativa na obesidade. Isso aponta para a necessidade de intervenções que considerem fatores familiares e genéticos.
+
+- **Dieta e Consumo de Água**: A relação entre consumo de água (CH2O) e atividade física (FAF) indica que a hidratação adequada está ligada a um estilo de vida ativo. Promover a ingestão de água pode ser uma abordagem simples para incentivar a atividade física.
+
+## Análise Exploratória
 Com o apoio da biblioteca ydata_profiling, nossa capacidade de realizar uma análise exploratória de dados foi significativamente ampliada, proporcionando um panorama ainda mais detalhado e abrangente. Sweetviz se destaca não apenas pela geração de visualizações gráficas convencionais, mas também por sua habilidade em identificar e apresentar outliers, destacar a presença de linhas duplicadas e explorar a autocorrelação das variáveis. Esta ferramenta enriquece o processo analítico ao oferecer uma visão holística dos dados, permitindo-nos entender as nuances e a complexidade do conjunto de dados com uma precisão sem precedentes. Através de Sweetviz, somos capazes de extrair insights mais profundos e fundamentados, o que é crucial para uma tomada de decisão informada e eficaz.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/assets/78939209/f1b96a1b-1df9-4e37-a40d-a1a52fd73470)
 
