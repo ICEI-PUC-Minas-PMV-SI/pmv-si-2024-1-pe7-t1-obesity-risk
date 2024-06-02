@@ -324,3 +324,6 @@ O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 
 # Referências Bibliográficas
 ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). A healthy lifestyle - WHO recommendations. [S.l.: s.n.], 2020. Disponível em: https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations. Acesso em: 12 abr. 2024.
+SCIKIT-LEARN. Decision Trees. Disponível em: https://scikit-learn.org/stable/modules/tree.html. Acesso em: 30 maio 2024.
+SCIKIT-LEARN. Logistic regression. Disponível em: https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression. Acesso em: 1 jun. 2024.
+SCIKIT-LEARN. Ensemble methods. Disponível em: https://scikit-learn.org/stable/modules/ensemble.html. Acesso em: 1 jun. 2024.
