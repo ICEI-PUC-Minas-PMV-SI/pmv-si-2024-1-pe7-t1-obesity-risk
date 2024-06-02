@@ -103,36 +103,34 @@ A árvore de decisão foi escolhida por sua simplicidade, interpretabilidade e c
 
 No nosso modelo, limitamos a profundidade da árvore (max_depth=10) para evitar overfitting e usamos o índice de Gini como critério de divisão. O índice de Gini mede a impureza de um nó, ou seja, o quão misturadas estão as classes. O algoritmo busca a divisão que maximiza a redução da impureza, resultando em subconjuntos mais puros (com exemplos de classes mais semelhantes).
 
-## 2. **Regressão Linear**
-A regressão linear é um algoritmo de aprendizagem supervisionada usado para modelar a relação entre uma variável dependente contínua e uma ou mais variáveis ​​independentes. O objetivo é encontrar a linha que melhor se ajusta aos dados e, ao mesmo tempo, minimizar a soma dos quadrados das diferenças entre os valores reais e  previstos.
-**Estrutura da Regressão Linear:**
-- Variável Dependente (y): A variável que queremos prever.
-- Variáveis Independentes (X): As variáveis que usamos para fazer a previsão.
-- Coeficientes (β): Pesos atribuídos a cada variável independente que determinam a inclinação e a interceptação da linha de regressão.
+## 2. **Regressão Logística**
+A regressão logística é um algoritmo de aprendizagem supervisionada usado para modelar a probabilidade de uma variável dependente categórica. Isto é particularmente útil quando a variável alvo é binária, mas também pode ser estendido a problemas de classificação multiclasse. O objetivo é encontrar a melhor combinação de variáveis ​​independentes para prever a probabilidade de ocorrência de um evento específico.
+
+**Estrutura da Regressão Logística:**
+
+- Variável Dependente (y): A variável categórica que queremos prever.
+- Variáveis Independentes (X): As variáveis usadas para fazer a previsão.
+- Coeficientes (β): Pesos atribuídos a cada variável independente que determinam a contribuição de cada uma para a probabilidade de um evento.
 
 **Princípios de Funcionamento**
-1. Modelo Linear: A Regressão Linear assume que a relação entre a variável dependente (y) e as variáveis independentes (X) pode ser modelada como uma linha reta:
-   y = B0 + B1X1 + B2X2 + ... + BnXn + ϵ
-   Onde:
-   - B0 é a interceptação (constante)
-   - B1, B2,...,Bn são os coeficientes das variáveis independentes.
-   - ϵ é o termo de erro
-2. Ajuste de coeficiente: Ajuste os coeficientes para minimizar a soma residual dos quadrados (a diferença entre os valores reais e previstos). Este método é chamado de mínimos quadrados ordinários (OLS).
-3. Predição: Após o ajuste do modelo, as previsões para novas amostras são feitas multiplicando os valores das variáveis ​​independentes pelos  coeficientes apropriados e somando o quociente.
+1. ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/assets/40677663/dae3372d-1196-4e1b-bf08-0ccd6c4f9854)
+2. Ajuste de Coeficientes: O ajuste dos coeficientes é feito através da maximização da função de verossimilhança, que mede o quão bem o modelo se ajusta aos dados observados.
+3. Predição: Após o ajuste do modelo, as previsões para novas amostras são feitas calculando a probabilidade do evento de interesse e classificando-as com base em um limiar definido (geralmente 0.5).
 
 **Vantagens:**
-1. Simples: a regressão linear é fácil de entender e aplicar.
-2. Explicação dos coeficientes: Os coeficientes explicam claramente o efeito de cada variável independente na variável dependente.
+1. Interpretação probabilística: A regressão logística fornece as probabilidades associadas à ocorrência de um evento e permite a interpretação direta dos resultados.
+2. Flexibilidade: Pode trabalhar com problemas binários e multiclasses.
+3. Eficiência: Funciona bem quando existe uma relação linear entre a variável independente e a função logit da variável dependente.
 
 **Limitações**
 
-1. Suposição de linearidade: A regressão linear assume que a relação entre as variáveis ​​é linear, mas este pode não ser o caso em problemas complexos. 
-2. Sensível a valores discrepantes: valores extremos podem afetar significativamente a linha de regressão.
-3. Multicolinearidade: Altas correlações entre variáveis ​​independentes podem distorcer os resultados.
+1. Relacionamento linear na função logit: Uma relação linear é assumida entre  a função logit das variáveis ​​independentes e dependentes.
+2. Multicolinearidade: Altas correlações entre variáveis ​​independentes podem distorcer os resultados.
+3. Sensibilidade a valores discrepantes: valores discrepantes podem afetar significativamente o modelo e os coeficientes.
    
 **Justificativa da Escolha**
 
-A regressão linear foi escolhida pela sua simplicidade, eficiência e facilidade de interpretação dos resultados. Esta é uma boa escolha para começar a modelar relações entre variáveis ​​e é particularmente útil quando queremos compreender a magnitude e a direção do efeito de diversas variáveis ​​independentes sobre uma variável dependente.
+A regressão logística foi escolhida devido à sua capacidade de modelar probabilidades e lidar com variáveis ​​​​categóricas, tornando-a ideal para problemas de classificação, como a previsão de níveis de obesidade. A sua simplicidade, eficácia e interpretabilidade permitem-nos compreender o impacto de cada variável independente na variável dependente, fornecendo assim informação valiosa sobre intervenções e estratégias de saúde.  O uso da regressão logística é particularmente adequado para resolver este problema porque queremos prever categorias de obesidade com base em vários fatores e compreender a probabilidade de cada pessoa se enquadrar em uma determinada categoria.
 
 ## 3. **Random Forest**
 O Random Forest é um algoritmo de aprendizado de máquina amplamente utilizado devido à sua robustez e eficácia em diversas aplicações. Este algoritmo, que pertence à família dos métodos de ensemble, combina múltiplos modelos de aprendizado para melhorar a precisão das previsões e reduzir a possibilidade de overfitting. 
@@ -161,7 +159,7 @@ Para avaliar o desempenho do modelo, utilizamos as seguintes métricas:
 
 Sendo assim, o **F1-score** se mostrou uma métrica mais adequada para avaliar o desempenho desse modelo, pois leva em consideração tanto a precisão quanto o recall, buscando um equilíbrio entre a capacidade do modelo de identificar corretamente os diferentes níveis de obesidade e de encontrar todos os casos de cada nível.
 
-## 2. **Regressão Linear**
+## 2. **Regressão Logística **
 As duas principais métricas de avaliação de desempenho são utilizadas para medir a eficácia do modelo de Regressão Logística: Accuracy Score e Classification Report.
 1. Accuracy Score: é uma métrica de avaliação que indica a proporção de previsões corretas feitas pelo modelo em relação ao número total de previsões.
 2. Classification Report: fornece uma análise detalhada do desempenho do modelo de classificação, incluindo diversas métricas para cada categoria:
@@ -194,7 +192,7 @@ As métricas em questão foram calculadas a partir de uma **Matriz de Confusão*
 
 **Implicações para a Questão de Pesquisa**: Os resultados obtidos com a Árvore de Decisão com ```max_depth = 10``` reforçam a ideia de que é possível prever o nível de obesidade de um indivíduo com alta precisão, considerando os fatores presentes no dataset. Iniciamos os testes com um ```max_depth = 5``` e verificamos que o aumento na profundidade da árvore para ```max_depth = 10``` permitiu ao modelo capturar nuances nos dados que não eram evidentes com uma profundidade menor, melhorando significativamente a capacidade de generalização e a performance em todas as classes.
 
-## 2. **Regressão Linear**
+## 2. **Regressão Logística**
 O modelo de regressão logística apresentou forte desempenho  na predição da obesidade, com 85% de acerto nos dados de validação e 83% nos dados dos testes. O uso de técnicas de pré-processamento como  imputação de valores faltantes, codificação de variáveis ​​categóricas e balanceamento de classes pelo SMOTE contribuíram significativamente para esses resultados. A precisão do modelo é consistente e mostra boa  generalização.
 
 **Desempenho por Classe:**
