@@ -159,7 +159,7 @@ Para avaliar o desempenho do modelo, utilizamos as seguintes métricas:
 
 Sendo assim, o **F1-score** se mostrou uma métrica mais adequada para avaliar o desempenho desse modelo, pois leva em consideração tanto a precisão quanto o recall, buscando um equilíbrio entre a capacidade do modelo de identificar corretamente os diferentes níveis de obesidade e de encontrar todos os casos de cada nível.
 
-## 2. **Regressão Logística **
+## 2. **Regressão Logística**
 As duas principais métricas de avaliação de desempenho são utilizadas para medir a eficácia do modelo de Regressão Logística: Accuracy Score e Classification Report.
 1. Accuracy Score: é uma métrica de avaliação que indica a proporção de previsões corretas feitas pelo modelo em relação ao número total de previsões.
 2. Classification Report: fornece uma análise detalhada do desempenho do modelo de classificação, incluindo diversas métricas para cada categoria:
