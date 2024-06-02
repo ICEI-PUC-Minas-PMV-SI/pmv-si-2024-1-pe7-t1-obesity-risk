@@ -202,6 +202,21 @@ O modelo de regressão logística apresentou forte desempenho  na predição da 
   **Implicações para a questão de pesquisa:**
    
    Os resultados obtidos com a regressão logística mostram que é possível prever o nível de obesidade do indivíduo com alta precisão utilizando os fatores presentes no conjunto de dados. Uma análise detalhada do relatório de classificação mostra que o modelo é capaz de distinguir eficazmente entre diferentes níveis de obesidade. A precisão de 85% dos dados de validação sugere que o modelo generaliza bem  e pode ser aplicado em ambientes práticos para  previsão de obesidade. O uso do SMOTE para equilibrar as classes garantiu  um forte desempenho do modelo, mesmo em classes sub-representadas. Este aspecto é essencial para a aplicabilidade prática do modelo, pois garante que todas as classes de obesidade sejam consideradas da mesma forma. Em resumo, a regressão logística, combinada com técnicas apropriadas de pré-processamento, foi eficaz na previsão do nível de obesidade, proporcionando assim uma ferramenta valiosa para intervenção precoce e estratégias de saúde pública.
+Resultado obtido:
+![0f11b976-e788-4578-bffe-701488ec08d2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/assets/40677663/af2e9322-3d78-4dff-bd54-f8fd9df0561c)
+
+
+**Validação:**
+- As classes 0 e 4 tiveram um desempenho excelente com altas precisões e recalls.
+- A classe 1 teve uma precisão alta, mas um recall mais baixo, o que significa que acertamos a maioria das previsões positivas, mas perdemos algumas.
+- A classe 6 teve um recall bom, mas uma precisão um pouco mais baixa, indicando alguns falsos positivos.
+- 
+**Teste:**
+- Resultados semelhantes foram obtidos no teste, confirmando a consistência do modelo.
+- A classe 5 apresentou desafios com precisão e recall mais baixos, então essa área precisa de mais trabalho.
+
+ Nosso modelo de regressão logística conseguiu prever os níveis de obesidade com uma acurácia alta.
+
 ## 3. **Random Forest**
 
 O modelo apresenta um desempenho muito bom no conjunto de teste, com uma alta acurácia de 0.95, para ```max_depth = 10```.  A maioria das classes tem precisão, revocação e F1-Score elevadas, indicando que o modelo está bem ajustado e generaliza bem para novos dados. A única classe com desempenho ligeiramente inferior é a Classe 1, "Normal_Weight" , mas ainda assim, suas métricas são bastante aceitáveis. No geral, o modelo parece bem equilibrado e eficaz na classificação das instâncias.
@@ -303,6 +318,7 @@ O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 
 # Vídeos demonstrando os algoritmos
 - Árvore de Decisão: https://youtu.be/js_gml6jU7g
+- Regressão Logística: 
 - Random Forest: https://www.youtube.com/watch?v=80l1Im9ZdfI
 
 # Referências Bibliográficas
