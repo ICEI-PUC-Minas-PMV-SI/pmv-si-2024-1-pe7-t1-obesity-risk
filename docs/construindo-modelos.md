@@ -259,21 +259,23 @@ Portanto, a partir dos testes realizados, é possível concluir que o modelo de 
 
 ![image 03](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/main/src/Varia%C3%A7%C3%A3o%20de%20testes.jpg)
 
-# Pipeline de pesquisa e análise de dados
+### Pipeline de Pesquisa e Análise de Dados
 
 O Google Colab foi a plataforma escolhida para conduzir esta pesquisa e análise de dados. O Colab oferece um ambiente de notebook Jupyter hospedado na nuvem, proporcionando acesso gratuito a recursos computacionais, incluindo GPUs, e facilitando a colaboração em projetos de aprendizado de máquina.
 
 As bibliotecas Python utilizadas neste projeto foram:
 
-- ```pandas```: Para manipulação e análise de dados.
-- ```scikit-learn```: Para modelagem de aprendizado de máquina (árvore de decisão, validação cruzada, métricas de avaliação).
-- ```imblearn```: Para técnicas de balanceamento de classes (SMOTE).
-- ```matplotlib```: Para visualização de dados (árvore de decisão).
-- ```seaborn```: Para visualização de dados (matriz de confusão).
+- **pandas**: Para manipulação e análise de dados.
+- **scikit-learn**: Para modelagem de aprendizado de máquina (árvore de decisão, validação cruzada, métricas de avaliação).
+- **imblearn**: Para técnicas de balanceamento de classes (SMOTE).
+- **matplotlib**: Para visualização de dados (árvore de decisão).
+- **seaborn**: Para visualização de dados (matriz de confusão).
+- **sklearn**: Para algoritmos adicionais de aprendizado de máquina e funções utilitárias.
+- **scikit-lib**: Para métodos avançados de modelagem e análise.
 
 O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 
-1. **Coleta de dados**: O conjunto de dados "Obesity or CVD risk (Classify/Regressor/Cluster)" no formato ```csv``` foi obtido do Kaggle.
+1. **Coleta de dados**: O conjunto de dados "Obesity or CVD risk (Classify/Regressor/Cluster)" no formato csv foi obtido do Kaggle.
 2. **Limpeza e pré-processamento**: Os dados foram limpos, outliers foram tratados e transformações foram aplicadas para preparar os dados para a modelagem.
 3. **Engenharia de recursos**: Novos recursos foram criados (cálculo do IMC) para avaliar a capacidade preditiva dos modelos.
 4. **Divisão dos dados**: Os dados foram divididos em conjuntos de treinamento, validação e teste.
@@ -281,7 +283,31 @@ O pipeline de pesquisa e análise de dados seguiu as seguintes etapas:
 6. **Avaliação**: O desempenho dos modelos foi avaliado usando métricas como acurácia, precisão, recall e F1-score.
 7. **Interpretação**: Os resultados foram interpretados para entender os pontos fortes e fracos dos modelos e identificar oportunidades de melhoria.
 
-(((( INCLUIR O PIPELINE DE EXECUÇÃO VISUAL ))))
+### Pipeline de Execução Visual
+
+```mermaid
+graph LR
+  A[Coleta de dados] --> B[Limpeza e pré-processamento]
+  B --> C[Engenharia de recursos]
+  C --> D[Divisão dos dados]
+  D --> E[Modelagem]
+  E --> F[Avaliação]
+  F --> G[Interpretação]
+
+  subgraph Bibliotecas
+    pandas & scikit-learn & imblearn & matplotlib & seaborn & sklearn & scikit-lib
+  end
+```
+
+### Descrição das Etapas
+
+- **Coleta de dados**: Importar os dados do Kaggle e carregar no Google Colab.
+- **Limpeza e pré-processamento**: Remover valores ausentes, tratar outliers e aplicar transformações necessárias.
+- **Engenharia de recursos**: Criar novos atributos como o IMC e preparar os dados para a modelagem.
+- **Divisão dos dados**: Separar os dados em conjuntos de treinamento, validação e teste.
+- **Modelagem**: Treinar modelos de aprendizado de máquina utilizando as bibliotecas scikit-learn e sklearn.
+- **Avaliação**: Avaliar o desempenho dos modelos utilizando métricas como acurácia, precisão, recall e F1-score.
+- **Interpretação**: Analisar os resultados para identificar pontos fortes e fracos dos modelos e propor melhorias.
 
 # Códigos
 - Árvore de Decisão: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk/blob/b6fb6cc676026948cee326b888d306e31315fbd4/src/obesity_dataset_decision_tree_classifier_max_depth_10.py
