@@ -13,10 +13,10 @@ A pergunta de pesquisa é mais ampla e abrangente, estabelecendo o tema geral da
 | Altura (Height) | Quantitativa contínua  | 1.45 a 1.98 |
 | Peso (Weight) | Quantitativa contínua  | 39 a 173 |
 | Histórico familiar de sobrepeso (family_history_with_overweight) | Categórica nominal  | Sim (Yes), Não (No) |
-| Consumo de alimentos com alta caloria entre as refeições (FAVC) | Categórica nominal  | Sim (Yes), Não (No) |
+| Consome alimentos ricos em calorias com frequência (FAVC) | Categórica nominal  | Sim (Yes), Não (No) |
 | Frequência de consumo de vegetais (FCVC) | Quantitativa discreta | 1 a 3 |
 | Número de Refeições Principais (NCP) | Quantitativa discreta | 1 a 4 |
-| Consumo de alimentos entre as refeições (CAEC)) | Categórica ordinal | Não (No), Às vezes (Sometimes), Frequentemente (Frequently), Sempre (Always) |
+| Consumo de alimentos entre as refeições (CAEC) | Categórica ordinal | Não (No), Às vezes (Sometimes), Frequentemente (Frequently), Sempre (Always) |
 | Tabagismo (Smoke) | Categórica nominal | Sim (Yes), No (Não) |
 | Consumo de água diário (CH2O) | Quantitativa discreta  | 1 a 3 |
 | Monitoramento do consumo de calorias (SCC) | Categórica nominal | Sim (Yes), No (Não) |
