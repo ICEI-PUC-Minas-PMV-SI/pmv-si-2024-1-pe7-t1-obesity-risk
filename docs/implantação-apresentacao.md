@@ -109,8 +109,6 @@ Os principais provedores de serviços em nuvem (AWS, Azure, Google Cloud) foram 
                    
                }
       }
-}
-
 
 5. **Elastic Beanstalk**:
     - O AWS Elastic Beanstalk será usado para implantar e gerenciar a aplicação web que interage com a API.
