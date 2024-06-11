@@ -65,7 +65,38 @@ Os principais provedores de serviços em nuvem (AWS, Azure, Google Cloud) foram 
         }
     ```
 
-4. **Elastic Beanstalk**:
+    ## Endpoint:
+   - **URL**: `https://api-gateway-url/{stage}/predict`
+   - **Método HTTP**: POST
+   - **Header**: `Content-Type: application/json`
+   - **Corpo da Requisição (JSON)**:
+     ```json
+     {
+        "Model": "DecisionTree",
+        "Gender": "Male",
+        "Age": 30,
+        "Height": 1.75,
+        "Weight": 70.1,
+        "family_history_with_overweight": "Yes",
+        "FAVC": "Yes",
+        "FCVC": 2,
+        "NCP": 3,
+        "CAEC": "Sometimes",
+        "SMOKE": "No",
+        "CH2O": 2,
+        "SCC": "Yes",
+        "FAF": 1,
+        "TUE": 0,
+        "CALC": "Sometimes",
+        "MTRANS": "Public_Transportation"
+     }
+    - **Corpo da Resposta (JSON)**:
+      ```json
+      {
+          "prediction": "Normal_Weight"
+      }
+
+5. **Elastic Beanstalk**:
     - O AWS Elastic Beanstalk será usado para implantar e gerenciar a aplicação web que interage com a API.
     - O Beanstalk será configurado para garantir a escalabilidade automática e a alta disponibilidade.
 
