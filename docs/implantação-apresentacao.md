@@ -72,7 +72,6 @@ Os principais provedores de serviços em nuvem (AWS, Azure, Google Cloud) foram 
    - **Corpo da Requisição (JSON)**:
      ```json
      {
-        "Model": "DecisionTree",
         "Gender": "Male",
         "Age": 30,
         "Height": 1.75,
@@ -93,8 +92,25 @@ Os principais provedores de serviços em nuvem (AWS, Azure, Google Cloud) foram 
     - **Corpo da Resposta (JSON)**:
       ```json
       {
-          "prediction": "Normal_Weight"
+           "DecisionTree": "Normal_Weight",
+           "LogisticRegression": "Overweight_Level_I",
+           "RandomForest": "Normal_Weight",
+           "technical_details": {
+               "DecisionTree": {
+                   "accuracy": 0.85,
+                   "precision": 0.80,
+                   "recall": 0.75,
+                   "f1-score": 0.88
+               },
+               "LogisticRegression": {
+                   
+               },
+               "RandomForest": {
+                   
+               }
       }
+}
+
 
 5. **Elastic Beanstalk**:
     - O AWS Elastic Beanstalk será usado para implantar e gerenciar a aplicação web que interage com a API.
