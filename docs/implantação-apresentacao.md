@@ -103,7 +103,10 @@ Os principais provedores de serviços em nuvem (AWS, Azure, Google Cloud) foram 
                    "f1-score": 0.88
                },
                "LogisticRegression": {
-                   
+                    "accuracy": 0.87,
+                   "precision": 0.83,
+                   "recall": 0.78,
+                   "f1-score": 0.90
                },
                "RandomForest": {
                    
