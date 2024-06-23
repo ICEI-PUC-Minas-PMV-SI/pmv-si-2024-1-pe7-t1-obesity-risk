@@ -21,7 +21,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from imblearn.over_sampling import SMOTE
 
 # Carregar os dados
-data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/ObesityDataSet.csv')
+data = pd.read_csv('ObesityDataSet.csv')
 
 # Tratar valores ausentes
 imputer = SimpleImputer(strategy='most_frequent')
