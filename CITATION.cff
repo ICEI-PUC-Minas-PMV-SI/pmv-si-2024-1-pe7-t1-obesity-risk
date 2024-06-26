@@ -1,29 +1,34 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Obesity Risk
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Carvalho Dal Col
+    given-names: Amanda Lima
+  - family-names: Campos Rodrigues
+    given-names: Bernardo
+  - family-names: Fernandes de Carvalho Jardim
+    given-names: Douglas
+  - family-names: Henrique Costa Lara
+    given-names: Eduardo
+  - family-names: Henrique Lousada
+    given-names: Thomas
+  - family-names: de Souza Monti
+    given-names: Pedro Henrique
+  - family-names: de Nardin
+    given-names: Luciana
+    name-suffix: Professor
     affiliation: PUC Minas
-    family-names:
-    given-names:
 keywords:
-  -
-  -
-repository-code:
+  - Obesity Risk
+  - Machine Learning
+  - Health Data Analysis
+  - Dietary Habits
+  - Physical Condition
+  - Demographic Data
+  - Random Forest
+  - Linear Regression
+  - Decision Tree
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe7-t1-obesity-risk
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-06-30
+date-released: 2024-06-26
